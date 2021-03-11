@@ -1,0 +1,10 @@
+Abs:  geo-ml/rainforest/data-planet/ 
+        planet-jpg-sample/  
+	    test-jpg/
+          train-jpg/  
+          test-jpg-add/ 
+
+
+        planet-tif-sample/ 
+          test-tif-v2/ 
+          train-tif-v2/

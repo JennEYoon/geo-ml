@@ -1,0 +1,74 @@
+# Working logs, 2021, Amazon Rainforest project 
+
+#### Feb 21, 2021:  
+
+  * Slack, need to add announcement and tell people to browse channel and add project.  
+
+  * Chp 10 tokenization - to char tokenization on my own using Numpy, then look at PyTorch char tokenization.  
+  * Lookup Word2Vec.  How is stem identified?  How much is manually fixed?  
+  * Breaking up matix into A, B, C blocks by column numbers, look for real world use, how large are the blocks? Do sentence wrapping fit inside most blocks?  
+  * Review matrix multiplication in Numpy, breaking up large arrays into column blocks, yet still keeping track of adjacent bordering columns, when calculation, then putting it back into shape.  
+  * Image also stack into long rows, then puts back into shape.  But does not break up word wrapping, one long row per image. Sentences are not all the same length, need to keep track of which cell was next at the edges of block.  
+
+#### Feb 28, 2021 Sunday:  
+
+  * detailed data & project description review, 5h  
+    - Main data need BitTorrent. Not sure how to get at the data without it      	 - use Kaggle API?  
+    - Sample code in fastai nb, not a full exercise, seems to be practice.  
+    - Leaderboard -- 1st 0.93317, 101st 0.92894, 201st 0.92535, 714th 0.85019  
+      Most people got around 93% accuracy.   
+
+  * Found a somewhat related nb, Brazil deforestation increasing?  
+    - No image analysis, tabular data correlations only.  
+    - fire events, el nino, sqft primary forest per country, annual data.  
+    - only fire data has location info 
+      (latitude, width, N/S from equator; and longitude, height, E/W from 0)
+      (Greenwich Meridian is in Greenwich Park near London)
+
+#### March 1, 2021 Monday:  
+
+  * BitTorret, UTorrent -- failed to download fully, stopped partially.  
+  * File too big, won't open.  Should be a folder structure with smaller image files within, .tif format. 
+  * Bill helping with it.  
+  * Not enought seeds (providers of complete download) for BitTorrent to work. 
+  * Discovered download icon for .tar files, directly from Kaggle.  
+  
+  --  seup WSL Ubuntu ---  
+  * Installed Ubuntu desktop, GUI.  
+  * Installed Jupyter Lab on "dlpy" conda env.
+  * Enabled startup XLauncher - Ubuntu 
+  * Firefox works!  Pops up window when start jupyter lab  
+    Text fuzzy, not like Windows native applications. Maybe WSL limit program size.  Looks identical to URL copy to Chrome, but fuzzy resolution.  
+  * Windows - only one conda env, "base"/ 
+  * base has jupyter lab installed.  
+  * Moved repos folder to inside Google Drive, Updated Google Drive to 200GB - large data files for deep learning. 
+  * Use Google Cloud Platform -- paid service next.  
+  
+#### March 2-3, 2021 Tues - Wed:  
+ * Successfully downloaded .7z files to external drive.  
+ * 7Zip software installed on windows.  
+ * Extract does not seem to work yet, Ubuntu?  
+ * File open OK, but images pale.  
+ * Try again from Ubuntu Terminal.  
+
+### March 3, 2021 Wed AM:  
+ * Everything downloaded to external USB2 drive, 102 GB total space!!!  
+ * Deleted a lot of folders, and moved whole python folders from C drive to external drives.  
+ * 82GB free on C drive now.  
+ * Working python folders moved to SDXC card, 128 GB.  
+ * Data-Planet on D drive, USB2.  
+ * All photos, music, document moved to USB Stick, 128 GB  
+ * Removed unused programs.  Completely removed python from C drive.  
+ * Ubuntu remove all conda env except 2, base, fastai20.  
+ * Install jupyter kernels to both envs. ipykernerls, nb_kernels etc.  
+ * -  
+ * Load image and disply inside notebook.  
+ * Next see how to show rows or images using Matplotlib.  
+ * Fastai - how to load images and show in notebook. 
+
+#### March 8, Monday 0:55 am:  
+ * Github repo - To upload 500 jpg images, after convering to RGB color scheme.  
+ * Also upload to Google Drive.  
+ * Same for tif files unconverted.  
+ * Find out how to split channels efficiently, test.  
+ * Pause while working on Fastai for Meetup.  

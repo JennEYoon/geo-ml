@@ -1,0 +1,16 @@
+# Amazon Rainforest project - data notes. 
+
+#### Author: Jennifer E. Yoon, datasciY.info@gmail.com    
+
+#### March 1-3, 2021 WIP: 
+
+From Kaggle, .tar files available for download, small download icon on right.  Even though folder is empty, file still exists.  
+
+7Zip already installed on Windows side.  
+Uncompress .tar file, then open.  Both operations takes a while.  
+Fully uncompressed, plus .tar file, plus jpg files uncompressed, 102 GB space, wow!  Stored on external 2TB drive.  Can't store locally on laptop SSD drive.  
+
+Too big to upload to Github repo.  
+Copied sample, 11 objects, per format. Use to figure out if I want to do any image processing, improve light and contrast if using .jpg format, test .tif format, separate out all 4 channels.  
+
+Next - upload data to Google Drive, but pick a format before uploading all.  
