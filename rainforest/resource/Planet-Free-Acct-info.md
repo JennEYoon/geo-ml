@@ -14,14 +14,5 @@ News announcing program to combat deforestation in tropical forests.
 Tara O'Shea, Sept 22, 2020.  
 Norway's Ministry of Climate and Environment initiative, partner with Planet, Kongsberg Satellite Services (KSAT), Airbus.  
 
-Planet - Amazon Timelapse:  
-https://youtu.be/Cyok7sHSHIQ
 
-Vox videos on Amazon Rainforest destruction:  
-Part 1: https://youtu.be/SAZAKPUQMw0  ​  
-Part 2: https://youtu.be/e1_4JseKlO4  ​  
-Part 3: https://youtu.be/oGjRNbXeRXI    
-
-Good to Know, longer history:  
-https://www.youtube.com/watch?v=O6DFvW2c4rk&list=WL&index=2  
 
