@@ -3,6 +3,9 @@
 notebook for accessing Planet API  
 https://github.com/planetlabs/notebooks/blob/master/jupyter-notebooks/pixels-to-tabular-data/field_statistical_analysis.ipynb  
 
+ * Downloaded, but not part of geo-ml repo, too big. 
+ * Saved to "data-big" folder under "repos" locally. 
+
 Good for learning to use the API. 
 March 13, 2021  
 
