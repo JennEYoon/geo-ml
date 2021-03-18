@@ -1,14 +1,11 @@
 # geo-ml
 
-Purpose: Geographic machine learning and visualization project repo.  
+Purpose: To explore geographic machine learning and visualization projects in Python.  
 
 Date: January 30, 2021  
 New, clean repo: March 11, 2021  
 
 Author: Jennifer E. Yoon  
-
-
-This repository will explore Python libraries for geographic machine learning and visualization.  
 
 ### 1) First Project, Amazon Rainforest deep learning:  
 
