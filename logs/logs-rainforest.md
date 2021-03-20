@@ -72,3 +72,21 @@
  * Same for tif files unconverted.  
  * Find out how to split channels efficiently, test.  
  * Pause while working on Fastai for Meetup.  
+
+#### March 19, 2021 Friday Update:  
+
+ * ***Next - upload data into Google Colab using Google Drive.***    
+   - 500 files per category saved to Google Drive "data-large" folder.   
+   - 30 files per category saved to "geo-ml" repo.  
+ * ***Then next - try fastai chp 6, multicategory model.***    
+ * Planet -- special free data available during 2020-2022.  
+   - Biannual, 2015 Dec, 2016 June/Dec, 2017, 2018, 2019, 2020 Dec latest. 
+   - AOI interactive "order" tool, python API (need key) tool, learn how to use.  
+   - Downloaded data, extended license with attribution, attach same copyrigth, non-commercial use, for assisting conservation cause or personal research.   
+ * Youtube and News - research on Amazon Rainforest condition, 2019 and 2020 were extremely bad years, from political source, Bolsonaro president.  
+
+ * Bill Gates book, How Not to ... - 51 billion tons of carbon dioxide emssiion per year, globally, as of 2020.  Need to reduce to net zero by 2050 or earlier, if possible.  Daunting task.  Maybe possible with global effort and new innovations.  
+
+ 
+  
+ 
