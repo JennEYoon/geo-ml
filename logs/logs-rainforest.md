@@ -76,7 +76,7 @@
 #### March 19, 2021 Friday Update:  
 
  * ***Next - upload data into Google Colab using Google Drive.***    
-   - 500 files per category saved to Google Drive "data-large" folder.   
+   - 40K JPEG files train, test saved to Google Drive "data-large" folder.       Only 2 GB so far.  
    - 30 files per category saved to "geo-ml" repo.  
  * ***Then next - try fastai chp 6, multicategory model.***    
  * Planet -- special free data available during 2020-2022.  

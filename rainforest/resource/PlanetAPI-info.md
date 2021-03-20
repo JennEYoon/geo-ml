@@ -5,6 +5,7 @@ https://github.com/planetlabs/notebooks/blob/master/jupyter-notebooks/pixels-to-
 
  * Downloaded, but not part of geo-ml repo, too big. 
  * Saved to "data-big" folder under "repos" locally. 
+ * C:\Users\jyoon\gdrive\repos\data-big\notebooks-master\notebooks-master  
 
 Good for learning to use the API. 
 March 13, 2021  
