@@ -13,4 +13,5 @@ After you sign up for free account, log into Planet Explorer:
 https://www.planet.com/explorer/#/zoom/2.47 
 
 Sample screenshot:  Amazon-PlanetLabs-browser.jpg 
-<img src="Amazon-PlanetLabs-browser.jpg" alt="Planet Explorer screenshot" width="800px" />
+<img src="./resourse/Amazon-PlanetLabs-browser.jpg" alt="Planet Explorer screenshot" width="800px" />
+https://github.com/JennEYoon/geo-ml/blob/main/rainforest/resource/Amazon-PlanetLabs-browser.jpg
