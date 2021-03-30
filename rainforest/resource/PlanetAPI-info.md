@@ -10,4 +10,6 @@ https://github.com/planetlabs/notebooks/blob/master/jupyter-notebooks/pixels-to-
 Good for learning to use the API. 
 March 13, 2021  
 
-Signed up for free account, Level 1 user, can "Order" images in geojason for download and high resolution - ByAnnual Archive, Dec / June 2016, 2017 if interest. 
+Signed up for free account, Level 1 user, can "Order" images in geojason for download and high resolution 
+ - Bi-Annual Archive, Dec 2015, June & Dec 2016, June & Dec 2017 -- periods of interest.  
+ - Location data is not stripped out. Can apply directed graph models.  
