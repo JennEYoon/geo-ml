@@ -87,6 +87,11 @@
 
  * Bill Gates book, How Not to ... - 51 billion tons of carbon dioxide emssiion per year, globally, as of 2020.  Need to reduce to net zero by 2050 or earlier, if possible.  Daunting task.  Maybe possible with global effort and new innovations.  
 
- 
+#### March 30, 2021 update:  
+* Last week monday, small group, Peter volunteered to take a look at Python API from Planet Labs.  
+* Talked to Dan today, he may start working on project.  
+* Today, organized resource links, posted on Slack DSML. Cleaned up reference info.  
+
+
   
  
