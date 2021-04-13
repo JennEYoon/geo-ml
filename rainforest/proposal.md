@@ -30,9 +30,9 @@ Goal 3) Possibly show result over time on a map of the South America, a movie sh
 We would want to get new data from Planet or other satellite image data source for later years, 2017 - 2020 but also earlier years, going back several decades, maybe to 1970.   We may need to do a lot of data processing to get it into a form that will conform with Planet data for 2016-2017.  We also don't have labeled data for any of the other years, so we will be using our model to label images for us.  Our model would need to be 95% accurate or better at classifying the images into 17 original categories.  We would also need to keep track of location identifier, in order to "quilt" the image tiles back together.  Python quilt pkg may be useful.
 Final movie can be shown using Tableau or interactive viz using Python Plotly.  (Maybe both, Tableau for non-tech and Plotly for deep-learning people.)  
   
-  > Planet Labs - Amazon Rainforest Time-lapse Movie -- applicable to Goal 3
-  > Movie of sample area within Amazon.  It starts out pristine in the movie, then gets decimated over time. Movie does not have sound.
-  > https://youtu.be/Cyok7sHSHIQ
+  > Planet Labs - Amazon Rainforest Time-lapse Movie -- applicable to Goal 3  
+  > Movie of a sample area within the Amazon.  It starts out pristine in the movie, then gets decimated over time. Movie does not have sound.  
+  > https://youtu.be/Cyok7sHSHIQ  
   
 This is my proposal.  I would say roll up your sleeves and have at it.  Transfer learning models from fastai class would be a good place to start.  
 
