@@ -32,7 +32,7 @@ Rainforest is directed graph because deforestation spread out from source, an ex
  * Download pre-trained model, copy from one of the above notebooks  
  * Load CSV labels into pandas dataframe  
  * Show image example, image[0] * 1.3  # Increase pigment intensity, images too washed out.  
- * Q Is there jpg already in RGB color format??  
+ * Q Is fastai's jpg input files already in RGB color format??  Why is our's in CMGK color format?  
  * Train model, unfreeze last layer.  
  * Train model, unfreeze all layers.  
  * Try progressive resizing, smaller image size first.  
