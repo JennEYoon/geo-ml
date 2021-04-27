@@ -102,7 +102,8 @@ Jennifer Yoon's working logs.
  * Peter - PlanetLabs Python API
  * Me - how to improve model  
  * Sampath colorization, jpeg image quality enhancements?    
- * goal 3 movie, which areas to pock for demonstration?  
+ * goal 3 movie, which areas to pick for demonstration?  
+ * Directed graph idea using geo-location id (lattitude and longitude).  
 
   
  
