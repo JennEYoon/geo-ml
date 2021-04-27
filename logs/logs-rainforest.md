@@ -95,12 +95,12 @@
 
 #### April 26, 2021 small group:  
  * Met with Peter, Dan, me, and 3 new people, Sampath, Sid, Ken.  
- * Sampath is finishing his Masters in Data Science in May 2021, Sid has been taking MOOCs rel new, Ken?  
- * We'll all try to get NB 3 to run and think about the project.  
- * Peter, Planetlabs Python API
+ * Sampath is finishing his Masters in Data Science in May 2021, Sid has been taking MOOCs still relatively new to data science, Ken?  
+ * We'll all try to get fast.ai 2018 NB 3 to run and think about the project.  
+ * Peter - PlanetLabs Python API
  * Me - how to improve model  
- * Sampath colorization, jpeg image enhancement.  
-
+ * Sampath colorization, jpeg image quality enhancements?    
+ * goal 3 movie, which areas to pock for demonstration?  
 
   
  
