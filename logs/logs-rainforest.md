@@ -1,5 +1,7 @@
 # Working logs, 2021, Amazon Rainforest project 
 
+Jennifer Yoon's working logs.  
+
 #### Feb 21, 2021:  
 
   * Slack, need to add announcement and tell people to browse channel and add project.  
