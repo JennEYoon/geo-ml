@@ -93,5 +93,14 @@
 * Today, organized resource links, posted on Slack DSML. Cleaned up reference info.  
 
 
+#### April 26, 2021 small group:  
+ * Met with Peter, Dan, me, and 3 new people, Sampath, Sid, Ken.  
+ * Sampath is finishing his Masters in Data Science in May 2021, Sid has been taking MOOCs rel new, Ken?  
+ * We'll all try to get NB 3 to run and think about the project.  
+ * Peter, Planetlabs Python API
+ * Me - how to improve model  
+ * Sampath colorization, jpeg image enhancement.  
+
+
   
  
