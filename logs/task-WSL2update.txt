@@ -1,0 +1,2 @@
+Update fastai env to WSL2  
+Try install Kaggle API - Dan question.  
