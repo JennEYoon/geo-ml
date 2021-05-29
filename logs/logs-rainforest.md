@@ -105,5 +105,8 @@ Jennifer Yoon's working logs.
  * goal 3 movie, which areas to pick for demonstration?  
  * Directed graph idea using geo-location id (lattitude and longitude).  
 
-  
+#### May 29, 2021 Saturday:  
+ * DataBlock - creates a list with items reference to file names, file Object.  
+ * Try manually making a list with 3 items in a folder path.  
+ * Testing software folder.  
  
