@@ -9,4 +9,19 @@ Figure out how to do it, but I think "batching" images is just a list of file ob
 
  * Next, review fastai batching, how did they get images into "DataBlock" and "DataLoader"?  
  
- 
+>>> Copy from fastai v3 lesson3:   
+#### src is a list, readin from file in path.
+src = (ImageItemList.from_csv(path, 'train_v2.csv', folder='train-jpg', suffix='.jpg')
+       .random_split_by_pct(0.2)
+       .label_from_df(sep=' '))
+
+data = (src.transform(tfms, size=128)
+        .databunch(num_workers=0).normalize(imagenet_stats))
+show_batch still works, and show us the different labels separated by ;.
+
+data.show_batch(rows=3, figsize=(12,9))
+
+#### data.show_batch() must be fastai function, data is src list, 
+#### has .databunch attribute.
+#### need to review code at fastai v2. 
+
