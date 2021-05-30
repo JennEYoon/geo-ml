@@ -1,6 +1,12 @@
-# My notes, 5/30/2021 Sunday
+# My notes
+
+### 5/30/2021 Sunday
 
 Image loading into list worked.  
 To show inline, need to first open the image using PIL Image. 
 Matplotlib pyplot format, shows images in row.  
 Figure out how to do it, but I think "batching" images is just a list of file objects, or file path names.  
+
+ * Next, review fastai batching, how did they get images into "DataBlock" and "DataLoader"?  
+ 
+ 
