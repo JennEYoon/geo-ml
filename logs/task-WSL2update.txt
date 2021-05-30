@@ -1,2 +1,6 @@
 Update fastai env to WSL2  
+ - May 29, 2021 - meet all reqs.  
+
 Try install Kaggle API - Dan question.  
+ - done on WSL - no issues, pip install kaggle  
+ 
