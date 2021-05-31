@@ -1,0 +1,6 @@
+scikit image - do tutorial  
+good library to have for manipulating images   
+slice, numpy for indexing into coordinates.  
+ * Filters - colorizer?  
+ 
+ 
