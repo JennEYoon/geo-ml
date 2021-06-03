@@ -25,3 +25,9 @@ data.show_batch(rows=3, figsize=(12,9))
 #### has .databunch attribute.
 #### need to review code at fastai v2. 
 
+#### fastai 04_data.external.ipynb  
+  * Has full Planet-jpg data and smaller files for faster interation.  Try this first   
+  * Can also custom download any web images or folder path  
+    function image_download()  
+    
+    
