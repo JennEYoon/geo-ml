@@ -1,0 +1,12 @@
+sample test images, 10 items.  
+
+For use testing python code for creating image collections object. 
+Creating DataBlock and DataLoader from fastai library.
+
+Python iterable class:  
+Need 
+    __init__(self, passed variables)
+
+    __len__(self, passed object collection) 
+
+    __get_item__(self, ith iteration item)  
