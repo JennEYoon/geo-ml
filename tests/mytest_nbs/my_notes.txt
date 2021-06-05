@@ -37,3 +37,5 @@ PLANET_TINY: A tiny version of the planets dataset from the Kaggle competition P
  * data source already exists in fastai datablock.  
  * data.external.ipynb  
  
+def download_url(url, dest, ... chunk_size=1024)
+Downloades compressed data file to local destination, unzips files, etc.  
