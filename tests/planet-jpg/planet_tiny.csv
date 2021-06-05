@@ -1,0 +1,12 @@
+fname, label 
+'train_0_rbg.jpg', 'cloud'
+'train_1_rgb.jpg', 'ground'
+'train_2_rgb.jpg', 'primaryforest'
+'train_3_rgb.jpg', 'primaryforest' 
+'train_4_rgb.jpg', 'road'
+'train_5_rgb.jpg', 'cloud'
+'train_6_rgb.jpg', 'agriculture'
+'train_7_rgb.jpg', 'cloud'
+'train_8_rgb.jpg', 'agriculture'
+'train_9_rgb.jpg', 'agriculture'
+
