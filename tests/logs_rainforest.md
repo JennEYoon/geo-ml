@@ -1,4 +1,4 @@
-# Working logs, 2021, Amazon Rainforest project 
+# Working logs, 2021 Amazon Rainforest Project 
 
 Jennifer Yoon's working logs.  
 
