@@ -53,7 +53,7 @@ Jennifer Yoon's working logs.
  * File open OK, but images pale.  
  * Try again from Ubuntu Terminal.  
 
-### March 3, 2021 Wed AM:  
+#### March 3, 2021 Wed AM:  
  * Everything downloaded to external USB2 drive, 102 GB total space!!!  
  * Deleted a lot of folders, and moved whole python folders from C drive to external drives.  
  * 82GB free on C drive now.  
@@ -110,3 +110,21 @@ Jennifer Yoon's working logs.
  * Try manually making a list with 3 items in a folder path.  
  * Testing software folder.  
  
+#### 6/5/2021 Saturday:  
+ * Working on DataBlock - iterable collections class.  
+ * URLs.PLANET_SAMPLE and URLs.PLANET_TINY have jpg images served from fastai s3.aws bucket.  
+   - Use these first to run notebook, Ubuntu local computer and Google Colab connection.  
+   - Try glob  
+   - Try os.walk  
+   - Try fastai data_external.ipynb (.py)  
+ * Scikit-Image tutorial from SciPy2018 -- finish watching, incorporate into Rainforest Project.  
+   - filter will be useful, enhance color contrast on images.  
+ * Rainforest Ideas:  
+   - Try simpler categories, primary forest, road, agriculture, and cloud/haze only.  
+   - Importance is if there is a road nearby, and a cattle slaughter house nearby.  
+   - Logging and Cattle export need road.  
+   - Look at discrete time periods, after Bolsonaro, after right-bottom area deforested, after trans-Amazon highway.  
+   - After conservation policy and enforcement - how much of forest was recovered, or reduced rate of forest loss.  
+
+
+
