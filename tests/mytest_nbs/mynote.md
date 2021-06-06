@@ -34,8 +34,8 @@ data.show_batch(rows=3, figsize=(12,9))
     ```function image_download() ```
     
 #### untar_data(URLs.NAME)    
-   ```untar_data(URLs.NAME) ```   
-   where NAME is defined url address in data_external.ipynb. 
+ *  ```untar_data(URLs.NAME) ```   
+   - where NAME is defined url address in data_external.ipynb.  
  * PLANET_SAMPLE: A sample of the planets dataset from the Kaggle competition Planet: Understanding the Amazon from Space.
  * PLANET_TINY: A tiny version of the planets dataset from the Kaggle competition Planet: Understanding the Amazon from Space for faster experimentation and prototyping. 
  * data source already exists in fastai datablock.  
