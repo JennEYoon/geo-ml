@@ -1,4 +1,4 @@
-# My notes
+# My notes - loading imageset data into fastai workflow    
 
 ### 5/30/2021 Sunday
 
