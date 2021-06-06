@@ -39,3 +39,13 @@ PLANET_TINY: A tiny version of the planets dataset from the Kaggle competition P
  
 def download_url(url, dest, ... chunk_size=1024)
 Downloades compressed data file to local destination, unzips files, etc.  
+
+#### Python Iterable, Collections class:
+```python
+class Collection(inherit):  
+# Need special class methods -- init, len, get_item.    
+    def __init__(self, passed variables)
+    def __len__(self, passed object collection) 
+    def __get_item__(self, ith iteration item)  
+```    
+    
