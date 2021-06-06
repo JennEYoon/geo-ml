@@ -41,8 +41,8 @@ data.show_batch(rows=3, figsize=(12,9))
  * data source already exists in fastai datablock.  
  * data.external.ipynb  
  * Default destination is ~.fastai/data/ or ~./fastai/data/archive  
-   ```def download_url(url, dest, ... chunk_size=1024)```
-   Downloades compressed data file to local destination, unzips files, etc.   
+   ```def download_url(url, dest, ... chunk_size=1024)```   
+ * Downloades compressed data file to local destination, unzips files, etc.   
 
 #### Python Iterable, Collections class:
 ```python
