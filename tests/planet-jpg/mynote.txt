@@ -1,5 +1,0 @@
-sample test images, 10 items.  
-
-For use testing python code for creating image collections object. 
-Creating DataBlock and DataLoader from fastai library.
-

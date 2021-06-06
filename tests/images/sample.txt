@@ -1,1 +1,0 @@
-Add sample images here for testing fastai v2 DataLoader module.  
