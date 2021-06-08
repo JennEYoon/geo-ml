@@ -33,13 +33,12 @@ Small amount of image files and my practice loading:
  * Loading test local cats folder, my laptop ubuntu:  https://github.com/JennEYoon/geo-ml/blob/main/rainforest/tests/mytest_nbs/img_load.ipynb 
  * I created the "cats" folder inside "tests".  Both are under "geo-ml" repo. 
 
-Scikit-Image seems to be a good library for colorizing, enhancing jpg image quality   
-It's also good for adding graphic elements to an image, or doing numpy array style manipulations to an image. 
+#### Scikit-Image seems good for colorizing, enhancing jpg image quality   
+It's also good for adding graphic elements to an image, or doing numpy array style manipulations to an image.   
 Tutorial - Scipy 2018:  https://www.youtube.com/watch?v=arXiv-TM7DY&t=148s  
-There's 2019 version, very similar:  https://www.youtube.com/watch?v=d1CIV9irQAY  
+There's 2019 version, very similar to 2018:  https://www.youtube.com/watch?v=d1CIV9irQAY  
 
 #### Concepts for loading image files: 
-
 1) Very broadly, image.open() and other library is needed to load into memory.  Pathlib is only a pointer (address) to the file.  File is not loaded into memory.  
 2) To display image inside a notebook, plt.show() matpltlib, im.show() pillow, show_batch(3, Image_size=x,y) fastai, etc., need to be called.  
 3) Path class from pathlib.py is used for dealing with folder structure (tree) and is OS agnostic, can use with Ubuntu and Windows. 
@@ -50,20 +49,20 @@ There's 2019 version, very similar:  https://www.youtube.com/watch?v=d1CIV9irQAY
 #### General Project Ideas:  
   * We want to simplify dataset and training model as much as possible.  
     - use URLs.PLANET_TINY, fastai dataset, has less number of images.  
-    - use only few categories to train (primary forest, road, agriculture, maybe river, maybe haze)
-    - selectively sample only images that match the above 3-5 categories.  
+    - use only few important categories to train (primary forest, road, agriculture, maybe river, maybe haze), instead of 17 categories.  
+    - selectively sample only images that match the above 3-5 categories.  Training set has more of these important categories.
     - try training with only 1 category per image, preference labels (road, primary forest, and agriculture).
   * Pre-trained models:  
     - simplest one first. Resnet34?  
-    - imagenette from fastai, smaller set than full imagenet, may have pre-trained model.  
+    - fastai dataset imagenette, smaller set than full imagenet, may have pre-trained model.  
     - Refer to fastbook nb5 Pet Breeds and nb6 Multicategory -- for possible pre-trained models.  
-    - Also use progressive image re-sizing (small to large) -- per fastbook nb7.  
-    - Also use fp16 on all models. Is faster and equal or slightly better in model learning.  
+    - Also use progressive image re-sizing (small to large) -- from fastbook nb7.  
+    - Also use fp16 on all models. Is faster and equal or slightly better in learning quality.  
   * Later - model extending:  
-    - For updating to recent years (2019 - 2021), concentrate on small regions, where there is already a road and cattle slaughterhouse.  
-    - Get long, lat coordinate and download Planet Labs Basemap for these concentrated area(s).
+    - For updating to recent years (2019 - 2021), concentrate on small regions, where there is already a road and a cattle slaughterhouse.  
+    - Get (long, lat) coordinates and download Planet Labs Basemap for these smaller area(s).
     - Use colorized and enhanced images from Planet Labs Basemap -- download for a few years first (2019, 2016)
-    - tif files -- recreate jpg file using different formula tp strip out channels (Scikit-image library).  
+    - tif files -- Try recreating jpg file from original tif files using a different formula to strip out channels (Scikit-image library).  
 
 ---  
 
