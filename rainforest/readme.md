@@ -5,16 +5,15 @@
 ### Author: Jennifer E Yoon  
 
 ### Collaborators:  
-Peter, Dan, maybe others from a local Meetup.
+Peter Stephan and Dan Kelly -- from Virginia Meetup
 
 ### Date: Feb 15, 2021 start  
 
 ### Contents: 
  * See "Proposal.md" for plan.    
-
  * See "PlanetAPI-info.md" for accessing data from Planet Labs. 
-
  * See "resource" folder for other useful links.  
+ * See "tests" folder for image loading examples (from Google Drive on Colab, from local path on Ubuntu)  
 
 ---  
 
