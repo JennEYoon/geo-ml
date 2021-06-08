@@ -63,6 +63,8 @@ There's 2019 version, very similar to 2018:  https://www.youtube.com/watch?v=d1C
     - Get (long, lat) coordinates and download Planet Labs Basemap for these smaller area(s).
     - Use colorized and enhanced images from Planet Labs Basemap -- download for a few years first (2019, 2016)
     - tif files -- Try recreating jpg file from original tif files using a different formula to strip out channels (Scikit-image library).  
+    - data augmentation - image chip coordinates. We can use different way(s) to define image chips.  
+      Randomly assign beginning (top-left) coordinates, and randomly size and crop images (row and column pixels). 
 
 ---  
 
