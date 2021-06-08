@@ -8,11 +8,12 @@ Peter, Dan, maybe others from a local Meetup.
 
 ### Date: Feb 15, 2021 start  
 
-### See "Proposal.md" for plan.    
+### Contents: 
+ * See "Proposal.md" for plan.    
 
-### See "PlanetAPI-info.md" for accessing data from Planet Labs. 
+ * See "PlanetAPI-info.md" for accessing data from Planet Labs. 
 
-### See "resource" folder for other useful links.  
+ * See "resource" folder for other useful links.  
 
 ---  
 
