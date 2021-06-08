@@ -1,5 +1,6 @@
 # Amazon Rainforest project:   
-### Based on 2017 Kaggle Challenge, PlanetLabs sponsor
+
+### Based on 2017 Kaggle Challenge, Planet Labs sponsor
 
 ### Author: Jennifer E Yoon  
 
