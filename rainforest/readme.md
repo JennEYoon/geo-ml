@@ -43,7 +43,9 @@ There's 2019 version, very similar to 2018:  https://www.youtube.com/watch?v=d1C
 3) Path class from pathlib.py is used for dealing with folder structure (tree) and is OS agnostic, can use with Ubuntu and Windows. 
 4) DataSet is a list, contains pointers (addresses) to image files.  
 5) Collections -- need some way to use Path dest and DataSet list, to loop through each image file and load into fastai DataLoaders (dls).  
-5b) Collections need at a minimum, __init__(), __len__(), and __get_item__() methods defined.  Fastai lib does this in "04_data.external.ipynb".
+5b) Collections need at a minimum, 
+    > '''__init__(), __len__(), and __get_item__()'''   
+    > methods defined.  Fastai lib does this in "04_data.external.ipynb".  
 
 #### General Project Ideas:  
   * We want to simplify dataset and training model as much as possible.  
