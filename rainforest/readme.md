@@ -1,5 +1,7 @@
 # Amazon Rainforest project:   
 
+## To move Readme.md into a Porject Wiki or a Github Blog.IO.  
+
 ### Based on 2017 Kaggle Challenge, Planet Labs sponsor
 
 ### Author: Jennifer E Yoon  
@@ -50,6 +52,9 @@ There's 2019 version, very similar to 2018:  https://www.youtube.com/watch?v=d1C
 #### General Project Ideas:  
   * We want to simplify dataset and training model as much as possible.  
     - use URLs.PLANET_TINY, fastai dataset, has less number of images.  
+    - 6/14/2021: created small jpg dataset with 2,000 images per train, test folder, and labels csv file with 2000 items. 
+       * Will use this and PLANET_TINY on first pass, to test models.  
+       * Also need a simpler non deep-learning baseline, statistical average or regression methods.  
     - use only few important categories to train (primary forest, road, agriculture, maybe river, maybe haze), instead of 17 categories.  
     - selectively sample only images that match the above 3-5 categories.  Training set has more of these important categories.
     - try training with only 1 category per image, preference labels (road, primary forest, and agriculture).
