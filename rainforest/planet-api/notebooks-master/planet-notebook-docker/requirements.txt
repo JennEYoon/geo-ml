@@ -1,0 +1,25 @@
+# changes here should be reflected in 
+#    ../development-notebooks/imports_test.ipynb
+# please keep this in alphabetical order
+fiona
+gdal
+geojson
+geojsonio
+geopandas
+ipyleaflet
+ipywidgets
+matplotlib
+mercantile
+numpy
+# for pip, use opencv-python
+opencv
+pandas
+planet
+pyproj
+pytest
+rasterio
+requests
+scikit-image
+scikit-learn
+shapely
+tqdm
