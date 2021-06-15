@@ -1,6 +1,6 @@
 # Amazon Rainforest project:   
 
-## To move Readme.md into a Porject Wiki or a Github Blog.IO.  
+## To move written content into a Project Wiki or a Personal Blog.  
 
 ### Based on 2017 Kaggle Challenge, Planet Labs sponsor
 
