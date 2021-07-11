@@ -1,0 +1,18 @@
+# Amazon Rainforest project notes
+Jennifer E Yoon  
+
+### 7/11/2021 Rainforest Project Notes 
+
+Should be able to load images now and run pre-trained model. 
+Follow fastai 2018 class lesson 3 notebook. 
+Get all the way to 92% F-score.
+
+
+Image load: specify transforms, folder path of train jpg only.
+src is where images are  
+data = src ...
+
+Model uses Resnet34 pre-trained.  
+Free and unfreeze steps included
+
+Private Leaderboard score: 0.9296 (around 80th)
