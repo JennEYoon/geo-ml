@@ -1,6 +1,6 @@
 # geo-ml
 
-Purpose: To explore geospatial machine learning (deep learning) and visualization projects in Python.  
+Purpose: To explore geospatial machine learning, deep learning, and visualization projects in Python.  
 
 Date: January 30, 2021  
 New, clean repo: March 11, 2021  
@@ -9,10 +9,10 @@ Author: Jennifer E. Yoon
 
 ### 1) First Project, Amazon Rainforest deep learning:  
  > See project wiki:  https://github.com/JennEYoon/geo-ml/wiki/rainforest     
+ >  * Collaborators: Dan, Peter from DSML meetup   
  
  * See folder "rainforest"  
- * Python libraries:  geopandas, geojson, rasterio, planet-api  
- * Collaborators: Dan, Peter from DSML meetup   
+ * Python libraries:  geopandas, geojson, rasterio, planet api  
  * Meetup group project, 2017 Planet data from Kaggle Challenge  
 
 ------------------------------------  
