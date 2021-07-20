@@ -8,7 +8,10 @@
   * tif file colors are: blue, green, red, near-infared, not red, green, blue, inf.  
   * Use **rasterio** library to manipulate, style similar to Numpy.  
   * Go through notebook, Planet API for downloading selected geometry.  
-  * jsonio -- good for looking up geojson coordinates from a polygon. 
+  * geojson.io website -- good for looking up geojson coordinates from a polygon. 
+    (link to image)
+  * import Python libraries: geojsonio.py and geopandas.py  
+  * also jsonio.py useful for writing json files from Python.  
 
 ---  
 
