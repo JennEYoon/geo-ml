@@ -16,7 +16,7 @@ Author: Jennifer E. Yoon
 
 ------------------------------------  
 
-### 2) Second Project, geosnap-md:  
+### 2) Second Project, geosnap-md, socio-economic machine learning & visualization:  
 Second project is using ***geosnap*** and ***pysal*** libraries to create a socio-economic neighborhood map for the State of Maryland.  Use U.S. Census data.   
  * See "geosnap-md" folder
 
