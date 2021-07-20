@@ -8,17 +8,18 @@
 
  - Main branch is master, no way to change this.  
  - Need to login with username and password for "git push" 
+ - Links: href and img src links work, but can't view them directly in browser   
+ - folder: "images" - catch all, assets for wiki    
 
 ### geo-ml.wiki path structure:  
 
 For Amazon Rainforest project wiki:  
-https://github.com/JennEYoon/geo-ml/wiki/rainforest  
- - folders: "rf_assets" - rainforest wiki    
- - 
+> https://github.com/JennEYoon/geo-ml/wiki/rainforest  
+  - folder: "rf_assets" - rainforest wiki    
+ 
 For Geosnap-Maryland project wiki:  
-https://github.com/JennEYoon/geo-ml/wiki/geosnap
- - folder: "geo_assets" - geosnap wiki    
+> https://github.com/JennEYoon/geo-ml/wiki/geosnap
+  - folder: "geo_assets" - geosnap wiki    
 
-Links: href and img src links work, but can't view them directly in browser   
- - folder: "images" - catch all wiki    
+
  
