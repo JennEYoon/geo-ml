@@ -23,5 +23,6 @@ Author: Jennifer E. Yoon
  * See "geosnap-md" folder  
  * Python libraries: geosnap, pysal 
  
-Second project is using ***geosnap*** and ***pysal*** libraries to create a socio-economic neighborhood map for the State of Maryland.  Use U.S. Census data. This is a slight extension of the geosnap tutorial talk from SciPy 2018 conference.  
-  * Link to YouTube - to add
+Second project is using ***geosnap*** and ***pysal*** libraries to create a socio-economic neighborhood map for the State of Maryland.  U.S. Census data used. This is an extension of a SciPy 2018 Conference tutorial.  
+  * Link to YouTube - to add  
+  * Link to github tutorial - to add  
