@@ -12,6 +12,7 @@ Author: Jennifer E. Yoon
  * Collaborators: Dan, Peter from DSML meetup   
  * Meetup group project, 2017 Planet data from Kaggle Challenge  
  * See folder "rainforest".  
+ * See project wiki:  https://github.com/JennEYoon/geo-ml/wiki  
 
 ------------------------------------  
 
