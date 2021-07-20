@@ -9,11 +9,11 @@ Author: Jennifer E. Yoon
 
 ### 1) First Project, Amazon Rainforest deep learning:  
  > See project wiki:  https://github.com/JennEYoon/geo-ml/wiki/rainforest     
- >  * Collaborators: Dan, Peter from DSML meetup   
  
+ * Collaborators: Dan, Peter from DSML meetup   
+    - Meetup group project, based on a 2017 Kaggle Challenge with data from Planet Labs  
  * See folder "rainforest"  
  * Python libraries:  geopandas, geojson, rasterio, planet api  
- * Meetup group project, 2017 Planet data from Kaggle Challenge  
 
 ------------------------------------  
 
