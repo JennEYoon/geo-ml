@@ -1,17 +1,17 @@
-# Planet Labs, SciPy 2018 Satellite Imagery Tutorial
+# Planet Labs, SciPy 2018 Conference tutorial
 
 #### Hands-on Satellite Imagery Analysis | SciPy 2018 Tutorial | Sara Safavi  
   * https://www.youtube.com/watch?v=txhjhjWqF7c  
   * github tutorial: https://github.com/planetlabs/notebooks/tree/master/jupyter-notebooks/data-api-tutorials  
   
-#### Memo: 
+#### My Notes: 
   * tif file colors are: blue, green, red, near-infared, not red, green, blue, inf.  
   * Use **rasterio** library to manipulate, style similar to Numpy.  
   * Go through notebook, Planet API for downloading selected geometry.  
-  * geojson.io website -- good for looking up geojson coordinates from a polygon. 
-    (link to image)
-  * import Python libraries: geojsonio.py and geopandas.py  
-  * also jsonio.py useful for writing json files from Python.  
+  * **geojson.io** website -- good for looking up geojson coordinates from a polygon.   
+     * <img src="geojason.io_manaus.png" alt="geojson.io example" width="200"> geojson.io example.  
+  * import Python libraries: **geojsonio.py** and **geopandas.py**    
+  * also **jsonio.py** useful for writing to json file format.  
 
 ---  
 
