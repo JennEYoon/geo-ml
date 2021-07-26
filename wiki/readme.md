@@ -11,6 +11,10 @@
  - Links: href and img src links work, but can't view them directly in browser   
  - folder: "images" - catch all, assets for wiki    
 
+ * >git clone for wiki:  
+   >```git clone git@github.com:JennEYoon/geo-ml.wiki.git```    
+   >(edited with .wiki at the end)   
+
 ### geo-ml.wiki path structure:  
 
 For Amazon Rainforest project wiki:  
