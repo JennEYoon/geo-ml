@@ -13,6 +13,6 @@ src is where images are
 data = src ...
 
 Model uses Resnet34 pre-trained.  
-Free and unfreeze steps included
+Freeze and unfreeze steps included
 
 Private Leaderboard score: 0.9296 (around 80th)
