@@ -2,12 +2,12 @@
 
 ## To move written content into a Project Wiki or a Personal Blog.  
 
-### Based on 2017 Kaggle Challenge, Planet Labs sponsor
+### Based on 2017 Kaggle Challenge, Planet Labs sponsor, Amazon Rainforest satellite image analysis project
 
 ### Author: Jennifer E Yoon  
 
 ### Collaborators:  
-Peter Stephan and Dan Kelly -- from Virginia Meetup
+Peter Stephan and Dan Kelly -- from a Virginia meetup
 
 ### Date: Feb 15, 2021 start  
 
@@ -18,6 +18,13 @@ Peter Stephan and Dan Kelly -- from Virginia Meetup
  * See "tests" folder for image loading examples (from Google Drive on Colab, from local path on Ubuntu)  
 
 ---  
+
+### July 25, 2021 update, loading data:  
+
+ Testing loading data, planet-2k, URLs.TINY_PLANET:  
+  * C:\Users\jyoon\gdrive\repos\geo-ml\rainforest\tests\mytest_nbs\ 
+      data_load_test2.ipynb
+  * planet jpg image size (256, 256) 3 channel.  
 
 ### Summary - 6/7/2021 small group:  
 
@@ -32,17 +39,25 @@ Small amount of image files and my practice loading:
  * From Google Drive mounted on Colab:  https://github.com/JennEYoon/geo-ml/blob/main/rainforest/tests/mytest_nbs/JY-notes-gdrive-v3.ipynb
       Previous google drive loading
  * Loading test local cats folder, my laptop ubuntu:  https://github.com/JennEYoon/geo-ml/blob/main/rainforest/tests/mytest_nbs/img_load.ipynb 
- * I created the "cats" folder inside "tests".  Both are under "geo-ml" repo. 
+ * I created the "cats" folder inside "tests".  Both are under "geo-ml" repo.     
 
 #### Scikit-Image seems good for colorizing, enhancing jpg image quality   
 It's also good for adding graphic elements to an image, or doing numpy array style manipulations to an image.   
 Tutorial - Scipy 2018:  https://www.youtube.com/watch?v=arXiv-TM7DY&t=148s  
 There's 2019 version, very similar to 2018:  https://www.youtube.com/watch?v=d1CIV9irQAY  
 
+#### napari, good for displaying images, filtering   
+
+#### Planet API tutorial, SciPy 2018 Conference  
+
+ * folder linke here, youtube video link  
+
+
 #### Concepts for loading image files: 
 1) Very broadly, image.open() and other library is needed to load into memory.  Pathlib is only a pointer (address) to the file.  File is not loaded into memory.  
 2) To display image inside a notebook, plt.show() matpltlib, im.show() pillow, show_batch(3, Image_size=x,y) fastai, etc., need to be called.  
 3) Path class from pathlib.py is used for dealing with folder structure (tree) and is OS agnostic, can use with Ubuntu and Windows. 
+3b) untar_data(URLs.xxx, path=dest)  May be able to change default data download location.  
 4) DataSet is a list, contains pointers (addresses) to image files.  
 5) Collections -- need some way to use Path dest and DataSet list, to loop through each image file and load into fastai DataLoaders (dls).  
 5b) Collections need at a minimum, 

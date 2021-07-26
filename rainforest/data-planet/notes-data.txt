@@ -14,3 +14,7 @@ Too big to upload to Github repo.
 Copied sample, 11 objects, per format. Use to figure out if I want to do any image processing, improve light and contrast if using .jpg format, test .tif format, separate out all 4 channels.  
 
 Next - upload data to Google Drive, but pick a format before uploading all.  
+
+#### July 25, 2021 Sunday data notes:  
+ * Google Drive, uploaded 2k images in train and test each, jpg format only.  
+   path: mnt\c:\users\jyoon\gdrive\Colab Notebooks\data\planet-2k\
