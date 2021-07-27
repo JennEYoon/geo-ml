@@ -5,7 +5,7 @@
   * github tutorial: https://github.com/planetlabs/notebooks/tree/master/jupyter-notebooks/data-api-tutorials  
   
 #### My Notes: 
-  * tif file colors are: blue, green, red, near-infared, not red, green, blue, inf.  
+  * tif file colors are: blue, green, red, near-infrared. Not red, green, blue, inf.  
   * Use **rasterio** library to manipulate, style similar to Numpy.  
   * import Python libraries: **geojsonio.py** and **geopandas.py**    
   * also **jsonio.py** useful for writing to json file format.  
