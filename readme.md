@@ -11,6 +11,7 @@ Author: Jennifer E. Yoon
  > See project wiki:  https://github.com/JennEYoon/geo-ml/wiki/rainforest     
  
  * Collaborators: Dan, Peter from DSML meetup   
+    - Send invitation to repo, contribute directly to geo-ml repo and to wiki (geo-ml.wiki) 
     - Meetup group project, based on a 2017 Kaggle Challenge with data from Planet Labs  
  * See folder "rainforest"  
  * Python libraries:  geopandas, geojson, rasterio, planet api  
