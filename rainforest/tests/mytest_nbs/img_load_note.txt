@@ -1,0 +1,19 @@
+# Amazon Rainforest, image dataset loading test
+
+### 7/29/2021 note, image load, Planet_2k, Planet_Tiny"   
+
+* labels_y, write a custom function  
+Can just be df['tags'].split(" ")
+or df.tags.split(' ') >> csv file, tags column, split on space deliminiter.  
+   - that is, tags column, each label split on space deliminter. 
+   - but need to make sure filename == files[i] 
+   - files = get_items_sorted(path/'train')
+   - where path = planet_2k data folder or planet_tiny data folder. 
+   
+item_resize >>> use 256 for planet, 126 for planet_tiny.  
+Only need to be square, no size limit on pre-trained models, double check this. 
+
+data_augmentation >> none first time, then flip=Yes, random crop to smaller square.  
+
+x_inputs randomizing >> no shuffle first, then random with ranseed 42.  
+
