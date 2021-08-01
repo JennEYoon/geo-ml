@@ -1,0 +1,4 @@
+Try bs=2 with cats 10 images
+Image size=256 planet, 123 tiny planet
+Labels, is it a dataframe?  
+Try get_y=df['tags'] if df['filename'] ==get_x[i].filename +\d.strip(.jpg)
