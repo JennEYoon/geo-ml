@@ -14,7 +14,7 @@ Author: Jennifer E. Yoon
     - Send invitation to repo, contribute directly to geo-ml repo and to wiki (geo-ml.wiki) 
     - Meetup group project, based on a 2017 Kaggle Challenge with data from Planet Labs  
  * See folder "rainforest"  
- * Python libraries:  geopandas, geojson, rasterio, planet api  
+ * Python libraries:  geopandas, geojson, rasterio, planet_data_api  
 
 ------------------------------------  
 
