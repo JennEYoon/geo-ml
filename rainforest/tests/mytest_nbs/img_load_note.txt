@@ -6,14 +6,27 @@
 Can just be df['tags'].split(" ")
 or df.tags.split(' ') >> csv file, tags column, split on space deliminiter.  
    - that is, tags column, each label split on space deliminter. 
-   - but need to make sure filename == files[i] 
-   - files = get_items_sorted(path/'train')
+   - but need to make sure filename == files[i] <<- No
+   - files = get_items_sorted(path/'train') Don't need to sort.  get_x is passed df with image file names. 
    - where path = planet_2k data folder or planet_tiny data folder. 
+   - fastai also has "PLANET_SAMPLE" , check this out?  
+   
    
 item_resize >>> use 256 for planet, 126 for planet_tiny.  
-Only need to be square, no size limit on pre-trained models, double check this. 
+Before passing to pre-trained model, need to resize images to 225, many models use this size.  
 
 data_augmentation >> none first time, then flip=Yes, random crop to smaller square.  
 
 x_inputs randomizing >> no shuffle first, then random with ranseed 42.  
 
+#### 8/4/2021 notes:  
+
+  - "r" is dataframe passed-input to get_x and get_y functions.  Custom functions.
+  - but need to make sure filename == files[i] <<- No, 
+     - get_x reads filename from df, then get matching image file with that filename.  
+     
+  - tuple (get_x array, get_y array).  csv file df['tags'] and matching row df['file_name'] object collates arrays in correct order.  
+  
+ # Try loading model next.  Test first before fine-tuning inputs.  Test that it works.  
+ 
+ 
