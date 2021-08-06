@@ -1,0 +1,39 @@
+Shared data from my google drive:  
+
+# Path for working locally, on C drive, python env is on Ubuntu WSL:  
+> path2k = Path('/mnt/c/users/jyoon/gdrive/Colab Notebooks/data/planet_2k')
+# Note, fastai library need WSL, does not work on Windows OS.  
+
+
+# Path mounted on your account's Google Drive:
+> path2k = Path('/content/gdrive/MyDrive/Colab Notebooks/data/planet_2k/train')
+
+path2k.ls()
+>(#2000) [Path('/content/gdrive/MyDrive/Colab Notebooks/data/planet_2k/train/train_1897.jpg'),Path('/content/gdrive/MyDrive/Colab Notebooks/data/planet_2k/train/train_1899.jpg', ...
+
+# to use short path, relative to folder:  
+Path.BASE_PATH = path1
+
+# %cd in a cell, to change working directory.  
+
+# If downloading a new dataset using "untar_data," destination is 
+# /root/.fastai.
+# Example, PLANET_TINY, served from fastai.aws account. 
+path2 = untar_data(URLs.PLANET_TINY)
+path2.ls()
+> [Path('/root/.fastai/data/planet_tiny/labels.csv'),
+>  Path('/root/.fastai/data/planet_tiny/train')]
+
+# to use short path, relative to folder:  
+Path.BASE_PATH = path2
+path2.ls()
+> [Path('labels.csv'), Path('train')]
+
+#### Types of Planet data  
+
+ * Original Kaggle planet-jpg has 40,479 images for train, 256x256. Test 40,669 or 40,679.  Not sure if file names have extra 10 repeats.
+ * Original Planet-tif has 40K plus images with infrared channel in train, test.
+ * My planet-jpg-sample folder has 30 images in train, test folders.  
+ * My planet_2k has 2000 images in train, test folders, plus csv file.  
+ * Fastai PLANET_TINY has 200 jpg images, 128x128 pixel size.  
+ * Fastai PLANET_SAMPLE -- have not tried yet.  

@@ -1,0 +1,8 @@
+/images folder
+
+Add sample images here for testing fastai v2 DataLoader module.  
+
+Img_00 to img_06 are high resolution photos, different dimensions. 
+
+images_labels.csv have multi-category labels and image file names. 
+labels are space separated and sorted alphabetically.

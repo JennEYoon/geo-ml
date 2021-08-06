@@ -1,0 +1,13 @@
+github repo can't accept large file, learn.save() models moved to gdrive.  
+
+See '/content/gdrive/MyDrive/Colab Notebooks/data/planet_2k'
+
+models/p2k-stage-1-rn34.pth  85 MB
+models/planet2k-stage-1-rn34.pth  256 MB
+
+Share link:  
+https://drive.google.com/drive/folders/16kwmNbZlHHfO31G2xKoKXpG8mo6ijszH?usp=sharing
+
+Parent folder: '/content/gdrive/MyDrive/Colab Notebooks/data'  
+
+

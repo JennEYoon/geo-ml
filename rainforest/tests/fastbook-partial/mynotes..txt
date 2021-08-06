@@ -1,2 +1,2 @@
-Partila fastbook, for testing, working
+Partial fastbook, for testing, working, image related fastai nbs. 
 JY 6/5/2021

@@ -1,0 +1,15 @@
+scikit-image tutorials
+
+https://github.com/scikit-image/skimage-tutorials
+
+SciPy 2018 tutorial vodeo
+https://www.youtube.com/watch?v=arXiv-TM7DY
+
+beginner image file loading, pillow, matplotlib, sk-image, open-cv 
+https://www.youtube.com/watch?v=52pMFnkDU-4
+
+python image libraries, skimage, opencv
+https://www.youtube.com/watch?v=SiOHwS9ms1k
+
+how to batch process image files
+https://www.youtube.com/watch?v=QxzxLVzNfbI&t=970s
