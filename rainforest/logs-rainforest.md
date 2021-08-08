@@ -23,6 +23,7 @@
  * simplify categories, try 5 (road, water, agriculture, slash_burn, mining, primary)  
  * Maybe just 3? (primary, road, agriculture)  
  * Try prediction, where, need location information, download with coordinates from Planet Labs.  
+ * numbers not even across category, even out road, agriculture, with primary only category.  
 
 ### Data, quality improve:  
 
