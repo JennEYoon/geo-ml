@@ -1,0 +1,18 @@
+# geo-ml wiki and blog
+
+Update: 8/7/2021 Saturday
+
+### July 2021 - created Wiki for Rainforest Project, geo-snap-md project 
+
+ * Put background info on wiki.  
+ 
+
+### August 2021 - created fastai-blog, for Rainforest Project Notebooks  
+
+ * blog fastpages template.  
+ * works with Jupyter notebook format.  
+ * Put working nb on fastpages blog.  
+ * 8/3-6, got a model to train!  Works!  
+ 
+
+
