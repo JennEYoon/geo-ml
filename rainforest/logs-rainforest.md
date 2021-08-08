@@ -16,4 +16,16 @@
  * S6) Planet - download "orders" using planet_data_api.  
        - review tutorial  
 
+## Rainforest, Ideas:  
 
+### Data, improve:  
+
+ * simplify categories, try 5 (road, water, agriculture, slash_burn, mining, primary)  
+ * Maybe just 3? (primary, road, agriculture)  
+ * Try prediction, where, need location information, download with coordinates from Planet Labs.  
+
+### Data, quality improve:  
+
+  * jpg images too dark, try nparray * 0.3, brighten 30%.  
+  * apply filter to jpg image to enhace contrast and brightness.  
+  * recreate jpg from tif, use different formula.  tif is the original from satellite. 
