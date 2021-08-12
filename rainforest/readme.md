@@ -7,7 +7,7 @@
 ### Author: Jennifer E Yoon  
 
 ### Collaborators:  
-Peter Stephan and Dan Kelly -- from a Virginia meetup
+Peter Stephan (pronounced steven) and Dan Kelly -- from a Virginia meetup
 
 ### Date: Feb 15, 2021 start  
 
