@@ -39,13 +39,6 @@
  * flip=true augmentation. 
  * 20% split into validation set, random selection from 2000 input images, seed set to 42.  
  * **Result: fbeta_score 0.923.  Top 0.93x**  
- * to run more tests.  improve source image quality, simplify categories down to 5 or 6 from 17, try different models and freeze and re-training.  
- * -- But first, test current model more --  
- * Test first, predict on known unused jpg images with labels.  
- * Test saved model, see if loading works.  
- * Test on all 40000 images. 
- * Try k-fold cross-validation instead of random splits, run model several times with controlled split, then average model parameters.  
-
 8/10/21 Tuesday -- Presented to Meetup
  * Pre and post presentation review, fastai videos/book.  
 
@@ -55,3 +48,13 @@
  * Work on Project time, including learning libraries, 12 weeks, 3 months.  
 
 ## S3) August - October 2021, extend project  
+
+ * -- I) First, test current model more --  
+ * Test first, predict on known unused jpg images with labels.  
+ * Test saved model, see if loading works.  
+ * Test on all 40000 images. 
+ * Try k-fold cross-validation instead of random splits, run model several times with controlled split, then average model parameters.  
+
+* -- II) Next, change input quality, categories, models, training --
+ * improve source image quality, simplify categories down to 5 or 6 from 17, try different models and freeze and re-training.  
+ * to run more tests.  improve source image quality, simplify categories down to 5 or 6 from 17, try different models and freeze and re-training.  
