@@ -42,10 +42,10 @@
 8/10/21 Tuesday -- Presented to Meetup
  * Pre and post presentation review, fastai videos/book.  
 
-## S2) Timeline to this point, 8.3 months.  
+## S2) Timeline to this point  
 
  * Calendar time, 8.3 months.  
- * Work on Project time, including learning libraries, 12 weeks, 3 months.  
+ * Work on Project time, including learning libraries, 12 weeks, ***3 months***.  
 
 ## S3) August - October 2021, extend project  
 
