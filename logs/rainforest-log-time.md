@@ -11,7 +11,7 @@ Create rainforest-log-time.md
  * -- But first, test current model more --  
  * Test first, predict on known unused jpg images with labels.  
  * Test saved model, see if loading works.  
-
  * Test on all 40000 images. 
+ * Try k-fold cross-validation instead of random splits, run model several times with controlled split, then average model parameters.  
 
 #### 8/10/21 Tuesday -- Presented to Meetup
