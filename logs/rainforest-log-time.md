@@ -5,7 +5,7 @@
 #### Feb - try to download Kaggle data, problems.  ~ 1 weeks
  * Also read about other Kaggle projects, get to know Kaggle platform.  
 
-#### March - full month solid work on project.  
+#### March - full month solid work on project. 4 wks  
  * first week, get Kaggle data downloaded, unzipped.  
  * Upload to Google Drive, share link with Peter and Dan  
  * Read about Amazon deforestation in recent decades.  
@@ -31,9 +31,9 @@
  * Rewatch all fastai 2020 lessons 1-8.  
  * Watch some code walk through video 1, 2019 foundations, lesson 8 (first).  
 
-#### Aug 1-12, 1.5 wks
+#### Aug 1-12, 1 wk
 
-##### 8/2 - 8/6, 50hrs - finally get data loader to work, runs model  
+##### 8/2 - 8/6, 45 hrs - finally get data loader to work, runs model  
  * resnet34, sample 2000 jpg data, not all 40,000.  
  * brighten 20%, resize to 224 pixels, maybe due to pre-trained model's image size?  
  * flip=true augmentation. 
@@ -41,11 +41,11 @@
  * **Result: fbeta_score 0.923.  Top 0.93x**  
  
 ##### 8/10/21 Tuesday -- Presented to Meetup
- * Pre and post presentation review, fastai videos/book.  
+ * Pre and post presentation review, fastai videos/book. 5h 
 
 ## S2) Timeline to this point  
  * Calendar time, 8.3 months.  
- * Work on Project time, including learning libraries, 12 weeks, ***2.8 months***.  
+ * Work on Project time, including learning libraries, 10 weeks, ***2.3 months***.  
 
 ## S3) August - October 2021, extend project  
 
