@@ -17,5 +17,5 @@ Update: 8/7/2021 Saturday
 ### Test fastpages blog combined with geo-ml existing repo.  
 
  * try putting notebooks in blog folder.  
- * "/blog/  
+ * "/blog/  Does it work? 
 
