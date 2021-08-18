@@ -14,5 +14,8 @@ Update: 8/7/2021 Saturday
  * Put working nb on fastpages blog.  
  * 8/3-6, got a model to train!  Works!  
  
+### Test fastpages blog combined with geo-ml existing repo.  
 
+ * try putting notebooks in blog folder.  
+ * "/blog/  
 
