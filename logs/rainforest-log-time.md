@@ -57,7 +57,7 @@
 
 #### II) Next, change input quality, categories, models, training --
  * improve source image quality, simplify categories down to 5 or 6 from 17, try different models and freeze and re-training.  
- * to run more tests.  improve source image quality, simplify categories down to 5 or 6 from 17, try different models and freeze and re-training.  
+ * tif files, reconvert to rgb with manuel formula. use infared channel to detect water vs road.  How does water help?   
  * Manually verify 2000 jpg image labels, make corrected labels, use this to retrain the model.  Improvement?  
  * Try against "additional-jpg" images and labels provided (private set).  What is result?  
  
