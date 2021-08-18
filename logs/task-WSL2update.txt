@@ -1,5 +1,9 @@
 Update fastai env to WSL2  
  - May 29, 2021 - meet all reqs.  
+ - save .bashrc, .fastai folder  
+ - save any SSH keys github  
+ 
+ Keep sudo password same, 4 digits.  
 
 Try install Kaggle API - Dan question.  
  - done on WSL - no issues, pip install kaggle  
