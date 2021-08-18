@@ -1,8 +1,8 @@
 ## S1) Timeline of Rainforest project  
 
-#### Jan 30, Agree on Amazon Rainforest for group project, Peter and Dan and me.  ~ 0.5 wk
+#### Jan 30, Agree on Amazon Rainforest for group project, Peter and Dan and me.  
 
-#### Feb - try to download Kaggle data, problems.  ~ 1.5 weeks
+#### Feb - try to download Kaggle data, problems.  ~ 1 weeks
  * Also read about other Kaggle projects, get to know Kaggle platform.  
 
 #### March - full month solid work on project.  
@@ -16,7 +16,7 @@
 
 #### April - almost no work.  Personal stuff  
 
-#### May - only 1 week of work, learn pathlib, regular expression, pandas
+#### May - only 0.5 week of work, learn pathlib, regular expression, pandas
  * Start trying to understand fastai software, review fastbook chp 1-6
 
 #### June - only 1.5 week of work, learn ways to show image in notebook.
