@@ -7,14 +7,15 @@
 
 ### Links:  
 kaggle.com
-Planet: Understanding the Amazon from Space
-Use satellite data to track the human footprint in the Amazon rainforest 
- * https://www.kaggle.com/c/planet-understanding-the-amazon-from-space/overview  
- * https://www.kaggle.com/c/planet-understanding-the-amazon-from-space/data    \-\-\-    
+Planet: Understanding the Amazon from Space.    
+Use satellite data to track the human footprint in the Amazon rainforest.   
+ * https://www.kaggle.com/c/planet-understanding-the-amazon-from-space/overview   
+ * https://www.kaggle.com/c/planet-understanding-the-amazon-from-space/data   
+ *  \-\-\-    
  * Blog of a newbie project using this data:  
-https://towardsdatascience.com/land-use-and-deforestation-in-the-brazilian-amazon-5467e88933b  
+   https://towardsdatascience.com/land-use-and-deforestation-in-the-brazilian-amazon-5467e88933b  
  * Second project from a student of fastai 2 years ago:  
-https://www.kaggle.com/hortonhearsafoo/fast-ai-v3-lesson-3-planet  
+   https://www.kaggle.com/hortonhearsafoo/fast-ai-v3-lesson-3-planet  
 
 ### Goal 1:  
 Goal 1) To complete the original 2017 challenge with Planet data provided.  Classify images into 17 category labels including cloud cover labels.
