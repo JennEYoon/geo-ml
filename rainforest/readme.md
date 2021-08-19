@@ -31,8 +31,8 @@ Peter Stephan (pronounced steven) and Dan Kelly -- from a Virginia meetup
  * All files are in geo-ml repo, rainforest folder:  https://github.com/JennEYoon/geo-ml/tree/main/rainforest 
  * Word file I was using:  https://github.com/JennEYoon/geo-ml/blob/main/rainforest/tests/rainforest-load-jy1.docx 
  * More notes on loading data: https://github.com/JennEYoon/geo-ml/blob/main/rainforest/tests/load_data.md 
- * nb 04_data.external, fastai code:  https://github.com/JennEYoon/fastai-app/blob/main/fastai/nbs/04_data.external.ipynb 
-     (I save a copy to my repo "fastai-app" but you can get it from fastai's own repo.  https://github.com/fastai/fastai)
+ * nb 04_data.external, fastai code:  https://github.com/JennEYoon/fastai-v2-app/blob/main/fastai/nbs/04_data.external.ipynb 
+     (I save a copy to my repo "fastai-v2-app" but you can get it from fastai's own repo.  https://github.com/fastai/fastai)
 
 Small amount of image files and my practice loading:
  * Tests folder:  https://github.com/JennEYoon/geo-ml/tree/main/rainforest/tests
