@@ -56,13 +56,13 @@ There's 2019 version, very similar to 2018:  https://www.youtube.com/watch?v=d1C
 #### Concepts for loading image files: 
 1) Very broadly, image.open() and other library is needed to load into memory.  Pathlib is only a pointer (address) to the file.  File is not loaded into memory.  
 2) To display image inside a notebook, plt.show() matpltlib, im.show() pillow, show_batch(3, Image_size=x,y) fastai, etc., need to be called.  
-3) Path class from pathlib.py is used for dealing with folder structure (tree) and is OS agnostic, can use with Ubuntu and Windows. 
+3) Path class from pathlib.py is used for dealing with folder structure (tree) and is OS agnostic, can use with Ubuntu and Windows.   
 3b) untar_data(URLs.xxx, path=dest)  May be able to change default data download location.  
 4) DataSet is a list, contains pointers (addresses) to image files.  
-5) Collections -- need some way to use Path dest and DataSet list, to loop through each image file and load into fastai DataLoaders (dls).  
+5) Collections -- need some way to use Path dest and DataSet list, to loop through each image file and load into fastai DataLoaders (dls).    
 5b) Collections need at a minimum, 
-    > '''__init__(), __len__(), and __get_item__()'''   
-    > methods defined.  Fastai lib does this in "04_data.external.ipynb".  
+   > ```__init__(), __len__(), and __get_item__() ```  
+   > methods defined.  Fastai lib does this in "04_data.external.ipynb".  
 
 #### General Project Ideas:  
   * We want to simplify dataset and training model as much as possible.  
