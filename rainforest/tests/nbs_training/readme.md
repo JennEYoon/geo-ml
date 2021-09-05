@@ -1,7 +1,7 @@
 # Folder for additional training, Rainforest Project  
 
 
-### Use "planet-small" folder, 11 images.  
+### Use "planet-sm" folder, 11 images.  
 
 Label one, only one label per image.  
 
