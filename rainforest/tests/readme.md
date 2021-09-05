@@ -1,12 +1,19 @@
 # Test parts of notebook code  
 
-Move data, image folders here.  
-Move parts of fastai software here.  
+ * nbs_training -- folder for further training.  
+ * nbs_data_load_tests -- folder for figuring out how to load image files into fastai DataBlock.  
+ * nbs_sample -- forder for figuring out how to load 1 to 3 images and show it in Jupyter notebook. 
 
-Use data.summary(path/"images") method.  
-See cats image load test, fasiai-v2-app/app2/ 
-July 26, 2021 9:33 am.  
+Test data folders also moved here.  
 
-revert load img 2 nb, to 10 hours ago.  
 
-image labels test w Pets data
+
+
+
+
+
+
+
+
+
+
