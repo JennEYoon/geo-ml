@@ -13,6 +13,8 @@ Author: Jennifer E. Yoon
  * Collaborators: Dan Kelly, Peter Stephan (pronounced steven) from DSML meetup   
  * Python libraries:  geopandas, geojson, rasterio, planet_data_api  
 
+
+
 ------------------------------------  
 
 ### 2) Second Project, geosnap-maryland machine learning project:  
@@ -24,3 +26,4 @@ Author: Jennifer E. Yoon
 Second project is using ***geosnap*** and ***pysal*** libraries to create a socio-economic neighborhood map for the State of Maryland.  U.S. Census data used. This is an extension of a SciPy 2018 Conference tutorial.  
   * Link to YouTube - to add  
   * Link to github tutorial - to add  
+Next steps) cleanup folder organization, write up steps, try training with all data.  
