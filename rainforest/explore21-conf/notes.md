@@ -6,5 +6,11 @@ https://live.explore21.planet.com/session-virtual/?v26dd132ae80017cdaf764437c30e
  * To export last 15 min medication  
  * To rewatch later parts  
 
+Day 2 Keynote:  
+https://live.explore21.planet.com/session-virtual/?v26dd132ae80017cdaf764437c30ebe6f10c1b1eeaab01165e44366654b368dfaeab6baf7e386a642ecb238989334530e=B430BC0B80EC0BBA3D7EE6C38B3ECD651FE61FDA56640626E60407F5E2CCEEF2CB1130DF13B9EA74E6F8C7E220EE22A1
+
+ * To export last 15 min medication  
+ * To rewatch  
+
 
 
