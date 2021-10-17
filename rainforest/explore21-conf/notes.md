@@ -12,6 +12,13 @@ https://live.explore21.planet.com/session-virtual/?v26dd132ae80017cdaf764437c30e
  * To export last 15 min medication  
  * To rewatch  
 
+## To Do:  
+
+ * Connet with recruited on LinkedIN.  Say I will apply in a couple of months, Currently working on NICFI data deep learning project.  
+ * 
+
+----  
+
 ### Ideas - Amazon Rainforest Project:  
 
  * Combine drone data with lower resolution Planet data?  
