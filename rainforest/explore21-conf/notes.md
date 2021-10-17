@@ -12,5 +12,13 @@ https://live.explore21.planet.com/session-virtual/?v26dd132ae80017cdaf764437c30e
  * To export last 15 min medication  
  * To rewatch  
 
+### Ideas - Amazon Rainforest Project:  
 
+ * Combine drone data with lower resolution Planet data?  
+ * LanSat data, archive, goes back decades more than Planet data, even lower resolution than Planet data.  
+ * Other EO (Earth Observation) sensors and satellites, can measure nitrogen in soil.  Can measure moisture in soil and vegetation.  
+ * Coral mapping, could be similar or useful.  
+ * NICFI data now available in the cloude, Google Earth, free access.  
+ * Download all of Amazon data to hard drive, before 2022 Sept.  Make sure I have fully data copy for my own projects. Game play project.  
+ * 
 
