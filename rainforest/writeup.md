@@ -26,4 +26,18 @@
 
 ------------ 
 
+## Code Cleanup to go with Writeup:  
+
+ * Split out data acquisition and initial deep learning training into separate folders. 
+ * Delete many trials, and keep few Jupyter notebooks.  
+ * Redo-clean jupyter notebooks with writing.  Write first, then add code that will go into accompanying cells.  
+ * Identify graphs and visuals to add. Write paragraphs first, then create the visuals.  
+ * Use Word or OneNote file format first.  Write here, then copy into Jupyter notebooks with chart elements.  
+ * Keep updating TOC - overall view of project.  
+ * Write to geo-ml/raubforest.wiki  -- Wiki of Project.  
+ * Post summaries and linke on my blog, datasciY.com/project.html.  
+ * When partially done, advertise:  Hackernews, Reddit, Fastai Forums, Planet Labs, Google Earth Obs for planet data, etc.  
+
+
+
 
