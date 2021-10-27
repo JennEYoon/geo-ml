@@ -23,7 +23,7 @@ Code - try reproducing some.
 
  * Connet with recruited on LinkedIN.  Say I will apply in a couple of months, Currently working on NICFI data deep learning project.  
  * Career posts - currently listed Jobs in software and data science.  
- * YouTube uploaded some videos.  Check which ones.  
+ * YouTube uploaded some videos.  Check which ones.  17 videos, short 20m, seems limited to 2 opening keynote addresses.  Afternoon breakout sessions all missing. 10/27/2021 
 
 ----  
 
