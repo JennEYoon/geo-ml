@@ -1,6 +1,6 @@
 # Amazon Rainforest project:   
-Based on 2017 Kaggle Challenge, Planet Labs sponsor, 
-Amazon Rainforest satellite image analysis project
+Based on a 2017 Kaggle Challenge, Planet Labs data, NICFI data, 
+Amazon Rainforest satellite image deep learning project.  
 
 ### Author: Jennifer E Yoon  
 
@@ -8,11 +8,11 @@ Amazon Rainforest satellite image analysis project
  * See "Proposal.md" for plan.    
  * See "PlanetAPI-info.md" for accessing data from Planet Labs. 
  * See "resource" folder for other useful links.  
- * See "tests" folder: 
-    - image loading tests, Jupyter notebook
-    - initial deep learning training tests, Jupyter notebook
-    - additional training and prediction tests, Jupyter notebook 
- * See "movie" folder for animation, deep learning results.     
+ * See "tests" folder for deep learning Jupyter notebooks: 
+    - image loading tests
+    - initial deep learning training tests
+    - more deep learning training and predictions 
+ * See "movie" folder for animation, deep learning training results.     
 
 ---  
 
