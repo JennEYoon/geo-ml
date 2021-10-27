@@ -1,32 +1,31 @@
 # Amazon Rainforest project:   
-
-## To move written content into a Project Wiki or a Personal Blog.  
-
-### Based on 2017 Kaggle Challenge, Planet Labs sponsor, Amazon Rainforest satellite image analysis project
+Based on 2017 Kaggle Challenge, Planet Labs sponsor, 
+Amazon Rainforest satellite image analysis project
 
 ### Author: Jennifer E Yoon  
-
-### Collaborators:  
-Peter Stephan (pronounced steven) and Dan Kelly -- from a Virginia meetup
-
-### Date: Feb 15, 2021 start  
 
 ### Contents: 
  * See "Proposal.md" for plan.    
  * See "PlanetAPI-info.md" for accessing data from Planet Labs. 
  * See "resource" folder for other useful links.  
- * See "tests" folder for image loading examples (from Google Drive on Colab, from local path on Ubuntu)  
+ * See "tests" folder: 
+    - image loading tests, Jupyter notebook
+    - initial deep learning training tests, Jupyter notebook
+    - additional training and prediction tests, Jupyter notebook 
+ * See "movie" folder for animation, deep learning results.     
 
 ---  
 
-### July 25, 2021 update, loading data:  
+### Project Management Logs:  
+
+#### July 25, 2021 update, loading data:  
 
  Testing loading data, planet-2k, URLs.TINY_PLANET:  
   * C:\Users\jyoon\gdrive\repos\geo-ml\rainforest\tests\mytest_nbs\ 
       data_load_test2.ipynb
   * planet jpg image size (256, 256) 3 channel.  
 
-### Summary - 6/7/2021 small group:  
+#### Summary - 6/7/2021 small group:  
 
  * All files are in geo-ml repo, rainforest folder:  https://github.com/JennEYoon/geo-ml/tree/main/rainforest 
  * Word file I was using:  https://github.com/JennEYoon/geo-ml/blob/main/rainforest/tests/rainforest-load-jy1.docx 
@@ -49,9 +48,7 @@ There's 2019 version, very similar to 2018:  https://www.youtube.com/watch?v=d1C
 #### napari, good for displaying images, filtering   
 
 #### Planet API tutorial, SciPy 2018 Conference  
-
  * folder linke here, youtube video link  
-
 
 #### Concepts for loading image files: 
 1) Very broadly, image.open() and other library is needed to load into memory.  Pathlib is only a pointer (address) to the file.  File is not loaded into memory.  
