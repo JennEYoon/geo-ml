@@ -23,6 +23,7 @@ Code - try reproducing some.
 
  * Connet with recruited on LinkedIN.  Say I will apply in a couple of months, Currently working on NICFI data deep learning project.  
  * Career posts - currently listed Jobs in software and data science.  
+ * YouTube uploaded some videos.  Check which ones.  
 
 ----  
 
