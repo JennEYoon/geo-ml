@@ -44,8 +44,8 @@
  * Pre and post presentation review, fastai videos/book. 5h 
 
 ## S2) Timeline to this point  
- * Calendar time, 7.3 months.  
- * Work on Project time, including learning libraries, 10 weeks, ***2.3 months***.  
+ * Work on Project time, including learning libraries, 10 weeks, about 2 months.  
+ * Fastai deep learning class learning time, about 1 week per chapter, chp 1-14, 17, 18, 19, 20 -> ~18 weeks or 4 months.  
 
 ## S3) August - October 2021, extend project  
 
