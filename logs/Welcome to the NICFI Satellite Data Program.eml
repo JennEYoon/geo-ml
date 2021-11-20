@@ -1,0 +1,413 @@
+Delivered-To: jenneyoon@gmail.com
+Received: by 2002:a5d:510e:0:0:0:0:0 with SMTP id s14csp2592806wrt;
+        Sat, 13 Mar 2021 13:20:25 -0800 (PST)
+X-Google-Smtp-Source: ABdhPJzJ8wM83asl0qL0EhpLPiuj7IqqsFKvvANZH/0SnBtPP2heu0Z/qzPcn439YxYz7nMvsRAi
+X-Received: by 2002:a17:902:bd82:b029:e6:1ef0:82dd with SMTP id q2-20020a170902bd82b02900e61ef082ddmr4637091pls.43.1615670425523;
+        Sat, 13 Mar 2021 13:20:25 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1615670425; cv=none;
+        d=google.com; s=arc-20160816;
+        b=iTEXhtpM/rofGD2By6q0hDQZCjUycQe+5gvCFtEvv2z14RXXsjU2bs2tJUg/99DHxZ
+         kilFGDBFMqBovEDlZ69x8XmtNtB5R7a9A5A7EMBuV3jbrEmxyuyDg4vqRoWjGgAZGLjP
+         jQ4KAQ8xQ5bZG9mibq9xypBbuM+JE1uv0x6EJ8MGit63eKaArJyN0ONbKJU/tHJrZrQO
+         pwjfx6hJXrfLl5kbDepjRL8I48pXGO4RoZz6ILhDSgQB05sLZRsit60aJrVdM/e/v/cm
+         75+Iwvv7UqVRlvRMUV4a9YYftAFSxl9nFSfGFSi+SXEGerbkEaikmn3p/44QqcnbEyqV
+         azVw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=feedback-id:from:message-id:subject:reply-to:date:list-unsubscribe
+         :mime-version:to:dkim-signature;
+        bh=744e/dfuMBxAOB+x3k64hl2fjpJ7M1gpi3Wav71tYy0=;
+        b=lgtFf/h0W0iAkysWyaDOy6In2qBIoPM/VfQZhroQHqCc6ItMn0PGtZrqnnD9mRxqta
+         C3kVJJpNMIv48BRwm6A0+NW8ZO40TXlhS/B6yOdOhMH7nCJHGxwctj0S0EEfzdbNfDWO
+         lhRUbyVB0pMmnZVOZGmidD6BmvrDWQZApYLVttF9KkhR2dnIgrcX/jWDJTDb3nhbAEnI
+         WR8keb4QeuMA/TJ1CsDsMDLU7/dJ36zrYcbi26dDwbUYbgr5aV9smFetDPr3RYCQ+mjV
+         0UI437w5XEFSOvIOwI/ynnlHm9z89GKqpXkV/iLselRTT4AicHMdAtzBcdE0k+vxorcA
+         A10g==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@planet.com header.s=intercom header.b=MW9gQyZl;
+       spf=pass (google.com: domain of bounces+21447500235984@rp.planet-01fecab4e6d7.intercom-mail.com designates 192.174.84.126 as permitted sender) smtp.mailfrom=bounces+21447500235984@rp.planet-01fecab4e6d7.intercom-mail.com;
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=planet.com
+Return-Path: <bounces+21447500235984@rp.planet-01fecab4e6d7.intercom-mail.com>
+Received: from mta-174-84-126.intercom.com.sparkpostmail.com (mta-174-84-126.intercom.com.sparkpostmail.com. [192.174.84.126])
+        by mx.google.com with ESMTPS id f6si10171944plt.141.2021.03.13.13.20.25
+        for <jenneyoon@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 13 Mar 2021 13:20:25 -0800 (PST)
+Received-SPF: pass (google.com: domain of bounces+21447500235984@rp.planet-01fecab4e6d7.intercom-mail.com designates 192.174.84.126 as permitted sender) client-ip=192.174.84.126;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@planet.com header.s=intercom header.b=MW9gQyZl;
+       spf=pass (google.com: domain of bounces+21447500235984@rp.planet-01fecab4e6d7.intercom-mail.com designates 192.174.84.126 as permitted sender) smtp.mailfrom=bounces+21447500235984@rp.planet-01fecab4e6d7.intercom-mail.com;
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=planet.com
+X-MSFBL: I0g0O4sonzCVGDO6hQ2XSFdn/pdSmuufOcN5CAlQmuI=|eyJzdWJhY2NvdW50X2l
+	kIjoiMTAwNCIsInRlbmFudF9pZCI6ImludGVyY29tIiwiY3VzdG9tZXJfaWQiOiI
+	xIiwibWVzc2FnZV9pZCI6IjYwNDc5OTJjNGQ2MGQ3MDM0ZGJmIiwiciI6Implbm5
+	leW9vbkBnbWFpbC5jb20ifQ==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=planet.com;
+	s=intercom; t=1615670425; i=@planet.com;
+	bh=744e/dfuMBxAOB+x3k64hl2fjpJ7M1gpi3Wav71tYy0=;
+	h=To:Content-Type:Date:Subject:Message-ID:From;
+	b=MW9gQyZlFXQ2TPtq6j4vsqstilxcUrtfxkOD8kAywG8Nz7jZKuMFal32lr/hJ2Q3h
+	 PmXRtLN0IlKf7jcqOGk5q/Wr/S3Wp6JWtJh1WNppUeSMSXdK+9Evv+1KCqsqpcwYJx
+	 0K4A9K1SNOJfRsdR5g3fv/XH8Oxj1rzX4PKToKVI=
+To: jenneyoon@gmail.com
+Content-Type: multipart/alternative; boundary="_----0cxLWpPVsiyi5j1LQmRv7g===_E3/FB-05488-99C2D406"
+MIME-Version: 1.0
+List-Unsubscribe: <mailto:unsubscribe_21447500235984_604d24fd8a72de4a8e949c66@planet-01fecab4e6d7.intercom-mail.com>, <https://planet-01fecab4e6d7.intercom-mail.com/subscriptions/unsubscribe?app_id=r4ypd7pz&conversation_id=21447500235984&user_id=604d24fd8a72de4a8e949c66>
+Date: Sat, 13 Mar 2021 21:20:24 +0000
+Reply-To: Planet from Planet <planet.team@planet-01fecab4e6d7.intercom-mail.com>
+X-Mailgun-Tag: user-custom
+X-Intercom-App-Id: r4ypd7pz
+X-Intercom-Bin: 210
+Subject: Welcome to the NICFI Satellite Data Program
+Message-ID: <5e15581b-56e07ce4-1615670424-21447500235984@planet-01fecab4e6d7.intercom-mail-210.com>
+X-Report-Abuse: Please report spam or abuse to abuse@intercom.io
+From: "Planet Team" <support@planet.com>
+X-Auto-Response-Suppress: OOF, AutoReply
+X-Mailgun-Variables: {"app_id":"r4ypd7pz","conversation_id":"21447500235984","intercom_message_id":665725352,"user_id":"604d24fd8a72de4a8e949c66"}
+Feedback-ID: 665725352:r4ypd7pz:intercom
+
+--_----0cxLWpPVsiyi5j1LQmRv7g===_E3/FB-05488-99C2D406
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Hi Jennifer, =0D=0A We are excited to welcome you to Norway's International=
+ Climate and Forests Initiative (NICFI) satellite data program. NICFI and i=
+ts partners are now offering free access to high-resolution, analysis-ready=
+ mosaics to help reduce and reverse tropical forest loss. =0D=0A Through th=
+is program, you will have access to Planet Basemaps: =0D=0A - Bi-Annual arc=
+hive (December 2015- August 2020), and =0D=0A- Monthly monitoring (Septembe=
+r 2020 onwards)) =0D=0A =0D=0A Users can view and download tropical mosaics=
+ in support of the Program=E2=80=99s purpose: to reduce and reverse the los=
+s of tropical forests, combat climate change, conserve biodiversity, and fa=
+cilitate the sustainable development of forest communities. =0D=0A Get star=
+ted today! =0D=0A - Learn more about this program with our Frequently Asked=
+ Questions =0D=0A- Learn more about how to use the data with our User Guide=
+s. =0D=0A Read more about how Norway=E2=80=99s Ministry of Climate and Envi=
+ronment, KSAT, Planet Labs, and Airbus are working to enhance efforts to pr=
+otect our tropical forests. =0D=0A Best, The Planet Team
+--_----0cxLWpPVsiyi5j1LQmRv7g===_E3/FB-05488-99C2D406
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="UTF-8"
+
+<!DOCTYPE html>=0D=0A<html lang=3D"en" style=3D"-ms-text-size-adjust: 100%;=
+ -webkit-text-size-adjust: 100%; height: 100% !important; margin: 0; paddin=
+g: 0; width: 100% !important">=0D=0A<head>=0D=0A<meta http-equiv=3D"Content=
+-Type" content=3D"text/html; charset=3DUTF-8">=0D=0A  <meta> =0D=0A  <meta =
+name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1.0"> =
+=0D=0A  <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge"> =0D=0A =
+ <title>Welcome to Planet!</title> =0D=0A  <style type=3D"text/css">=0D=0A=
+=0D=0A        @media only screen and (max-width: 480px){=0D=0A        .emai=
+lImage{=0D=0A            height:auto !important;=0D=0A            max-width=
+:480px !important;=0D=0A            width: 100% !important;=0D=0A        }=
+=0D=0A    }=0D=0A        .emailImage{=0D=0A            height:auto !importa=
+nt;=0D=0A            max-width:600px !important;=0D=0A            width: 10=
+0% !important;=0D=0A        }=0D=0A    }=0D=0A=0D=0A=0D=0A    /* What it do=
+es: Remove spaces around the email design added by some email clients. */=
+=0D=0A    /* Beware: It can remove the padding / margin and add a backgroun=
+d color to the compose a reply window. */=0D=0A    html,=0D=0A    body {=0D=
+=0A      margin: 0;=0D=0A      padding: 0;=0D=0A      height: 100% !importa=
+nt;=0D=0A      width: 100% !important;=0D=0A    }=0D=0A=0D=0A    /* What it=
+ does: Stops email clients resizing small text. */=0D=0A    * {=0D=0A      =
+-ms-text-size-adjust: 100%;=0D=0A      -webkit-text-size-adjust: 100%;=0D=
+=0A    }=0D=0A=0D=0A    /* What it does: Forces Outlook.com to display emai=
+ls full width. */=0D=0A    .ExternalClass {=0D=0A      width: 100%;=0D=0A  =
+  }=0D=0A=0D=0A    /* What it does: Stops Outlook from adding extra spacing=
+ to tables. */=0D=0A    table,=0D=0A    td {=0D=0A      =0D=0A      =0D=0A =
+   }=0D=0A=0D=0A    /* What it does: Fixes webkit padding issue. */=0D=0A  =
+  table {=0D=0A      border-spacing:0 !important;=0D=0A    }=0D=0A=0D=0A   =
+ /* What it does: Fixes Outlook.com line height. */=0D=0A    .ExternalClass=
+,=0D=0A    .ExternalClass * {=0D=0A      line-height: 100%;=0D=0A    }=0D=
+=0A=0D=0A    /* What it does: Fix for Yahoo mail table alignment bug. */=0D=
+=0A    table {=0D=0A      border-collapse: collapse;=0D=0A      margin: 0 a=
+uto;=0D=0A    }=0D=0A=0D=0A    /* What it does: Uses a better rendering met=
+hod when resizing images in IE. */=0D=0A    img {=0D=0A      -ms-interpolat=
+ion-mode:bicubic;=0D=0A    }=0D=0A=0D=0A    /* What it does: Overrides styl=
+es added when Yahoo's auto-senses a link. */=0D=0A    .yshortcuts a {=0D=0A=
+      border-bottom: none !important;=0D=0A    }=0D=0A=0D=0A    /* What it =
+does: Overrides blue, underlined link auto-detected by iOS Mail. */=0D=0A  =
+  /* Create a class for every link style needed; this template needs only o=
+ne for the link in the footer. */=0D=0A    .mobile-link--footer a {=0D=0A  =
+    color: #00aeb3 !important;=0D=0A    }=0D=0A=0D=0A    a {=0D=0A      col=
+or: #00aeb3 !important;=0D=0A    }=0D=0A=0D=0A    /* What it does: Override=
+s styles added images. */=0D=0A    img {=0D=0A      border:0 !important;=0D=
+=0A      outline:none !important;=0D=0A      text-decoration:none !importan=
+t;=0D=0A    }=0D=0A=0D=0A    /* Media Queries */=0D=0A    @media screen and=
+ (max-device-width: 600px), screen and (max-width: 600px) {=0D=0A=0D=0A    =
+  /* What it does: Overrides email-container's desktop width and forces it =
+into a 100% fluid width. */=0D=0A      .email-container {=0D=0A        widt=
+h: 100% !important;=0D=0A      }=0D=0A=0D=0A      /* What it does: Forces i=
+mages to resize to the width of their container. */=0D=0A      img[class=3D=
+"fluid"],=0D=0A      img[class=3D"fluid-centered"] {=0D=0A        width: 10=
+0% !important;=0D=0A        max-width: 100% !important;=0D=0A        height=
+: auto !important;=0D=0A        margin: auto !important;=0D=0A      }=0D=0A=
+      /* And center justify these ones. */=0D=0A      img[class=3D"fluid-ce=
+ntered"] {=0D=0A        margin: auto !important;=0D=0A      }=0D=0A=0D=0A  =
+    /* What it does: Forces table cells into full-width rows. */=0D=0A     =
+ td[class=3D"stack-column"],=0D=0A      td[class=3D"stack-column-center"] {=
+=0D=0A        display: block !important;=0D=0A        width: 100% !importan=
+t;=0D=0A        direction: ltr !important;=0D=0A      }=0D=0A      /* And c=
+enter justify these ones. */=0D=0A      td[class=3D"stack-column-center"] {=
+=0D=0A        text-align: center !important;=0D=0A      }=0D=0A=0D=0A      =
+/* Data Table Styles */=0D=0A      /* What it does: Hides table headers */=
+=0D=0A      td[class=3D"data-table-th"] {=0D=0A        display: none !impor=
+tant;=0D=0A      }=0D=0A      /* What it does: Hides table headers */=0D=0A=
+      td[class=3D"data-table-th"] {=0D=0A        display: none !important;=
+=0D=0A      }=0D=0A      /* What it does: Change the look and layout of the=
+ remaining td's */=0D=0A      td[class=3D"data-table-td"],=0D=0A      td[cl=
+ass=3D"data-table-td-title"] {=0D=0A        display: block !important;=0D=
+=0A        width: 100% !important;=0D=0A        border: 0 !important;=0D=0A=
+      }=0D=0A      /* What it does: Changes the appearance of the first td =
+in each row */=0D=0A      td[class=3D"data-table-td-title"] {=0D=0A        =
+font-weight: bold;=0D=0A        color: #333333;=0D=0A        padding: 10px =
+0 0 0 !important;=0D=0A        border-top: 2px solid #eeeeee !important;=0D=
+=0A      }=0D=0A      /* What it does: Changes the appearance of the other =
+td's in each row */=0D=0A      td[class=3D"data-table-td"] {=0D=0A        p=
+adding: 5px 0 0 0 !important=0D=0A      }=0D=0A      /* What it does: Provi=
+des a visual divider between table rows. In this case, a bit of extra space=
+. */=0D=0A      td[class=3D"data-table-mobile-divider"] {=0D=0A        dis=
+play: block !important;=0D=0A        height: 20px;=0D=0A      }=0D=0A      =
+/* END Data Table Styles */=0D=0A=0D=0A    }=0D=0A=0D=0A  </style>=0D=0A<st=
+yle>.intercom-align-right {=0D=0A  text-align: right !important;=0D=0A}=0D=
+=0A.intercom-align-center {=0D=0A  text-align: center !important;=0D=0A}=0D=
+=0A.intercom-align-left {=0D=0A  text-align: left !important;=0D=0A}=0D=0A/=
+* Over-ride for RTL */=0D=0A.right-to-left .intercom-align-right{=0D=0A  te=
+xt-align: left !important;=0D=0A}=0D=0A.right-to-left .intercom-align-left{=
+=0D=0A  text-align: right !important;=0D=0A}=0D=0A.right-to-left .intercom-=
+align-left {=0D=0A  text-align:right !important;=0D=0A}=0D=0A.right-to-left=
+ li {=0D=0A  text-align:right !important;=0D=0A  direction: rtl;=0D=0A}=0D=
+=0A.right-to-left .intercom-align-left img,=0D=0A.right-to-left .intercom-a=
+lign-left .intercom-h2b-button {=0D=0A  margin-left: 0 !important;=0D=0A}=
+=0D=0A.intercom-attachment,=0D=0A.intercom-attachments,=0D=0A.intercom-atta=
+chments td,=0D=0A.intercom-attachments th,=0D=0A.intercom-attachments tr,=
+=0D=0A.intercom-attachments tbody,=0D=0A.intercom-attachments .icon,=0D=0A.=
+intercom-attachments .icon img {=0D=0A  border: none !important;=0D=0A  box=
+-shadow: none !important;=0D=0A  padding: 0 !important;=0D=0A  margin: 0 !i=
+mportant;=0D=0A}=0D=0A.intercom-attachments {=0D=0A  margin: 10px 0 !import=
+ant;=0D=0A}=0D=0A.intercom-attachments .icon,=0D=0A.intercom-attachments .i=
+con img {=0D=0A  width: 16px !important;=0D=0A  height: 16px !important;=0D=
+=0A}=0D=0A.intercom-attachments .icon {=0D=0A  padding-right: 5px !importan=
+t;=0D=0A}=0D=0A.intercom-attachment {=0D=0A  display: inline-block !importa=
+nt;=0D=0A  margin-bottom: 5px !important;=0D=0A}=0D=0A=0D=0A.intercom-inter=
+blocks-content-card {=0D=0A  width: 334px !important;=0D=0A  max-height: 13=
+6px !important;=0D=0A  max-width: 100% !important;=0D=0A  overflow: hidden =
+!important;=0D=0A  border-radius: 20px !important;=0D=0A  font-size: 16px !=
+important;=0D=0A  border: 1px solid #e0e0e0 !important;=0D=0A}=0D=0A=0D=0A.=
+intercom-interblocks-link,=0D=0A.intercom-interblocks-article-card {=0D=0A =
+ text-decoration: none !important;=0D=0A}=0D=0A=0D=0A.intercom-interblocks-=
+article-icon {=0D=0A  width: 22.5% !important;=0D=0A  height: 136px !import=
+ant;=0D=0A  float: left !important;=0D=0A  background-color: #fafafa !impor=
+tant;=0D=0A  background-image: url('https://planet-01fecab4e6d7.intercom-ma=
+il.com/assets/article_book-1a595be287f73c0d02f548f513bfc831.png') !importan=
+t;=0D=0A  background-repeat: no-repeat !important;=0D=0A  background-size: =
+32px !important;=0D=0A  background-position: center !important;=0D=0A}=0D=
+=0A=0D=0A.intercom-interblocks-article-text {=0D=0A  width: 77.5% !importan=
+t;=0D=0A  float: right !important;=0D=0A  background-color: #fff !important=
+;=0D=0A}=0D=0A=0D=0A.intercom-interblocks-link-title,=0D=0A.intercom-interb=
+locks-article-title {=0D=0A  color: #519dd4 !important;=0D=0A  font-size: 1=
+5px !important;=0D=0A  margin: 16px 18px 12px !important;=0D=0A  line-heigh=
+t: 1.3em !important;=0D=0A  overflow: hidden !important;=0D=0A}=0D=0A=0D=0A=
+.intercom-interblocks-link-description,=0D=0A.intercom-interblocks-article=
+-body {=0D=0A  margin: 0 18px 12px !important;=0D=0A  font-size: 14px !impo=
+rtant;=0D=0A  color: #65757c !important;=0D=0A  line-height: 1.3em !importa=
+nt;=0D=0A}=0D=0A=0D=0A.intercom-interblocks-link-author,=0D=0A.intercom-int=
+erblocks-article-author {=0D=0A  margin: 10px 15px !important;=0D=0A  heigh=
+t: 24px !important;=0D=0A  line-height: normal !important;=0D=0A}=0D=0A=0D=
+=0A.intercom-interblocks-link-author-avatar,=0D=0A.intercom-interblocks-art=
+icle-author-avatar {=0D=0A  width: 16px !important;=0D=0A  height: 16px !im=
+portant;=0D=0A  display: inline-block !important;=0D=0A  vertical-align: mi=
+ddle !important;=0D=0A  float: left;=0D=0A  margin-right: 5px;=0D=0A}=0D=0A=
+=0D=0A.intercom-interblocks-link-author-avatar-image,=0D=0A.intercom-interb=
+locks-article-author-avatar-image {=0D=0A  width: 16px !important;=0D=0A  h=
+eight: 16px !important;=0D=0A  border-radius: 50% !important;=0D=0A  margin=
+: 0 !important;=0D=0A  vertical-align: top !important;=0D=0A  font-size: 12=
+px !important;=0D=0A}=0D=0A=0D=0A.intercom-interblocks-link-author-name,=0D=
+=0A.intercom-interblocks-article-author-name {=0D=0A  color: #74848b !impor=
+tant;=0D=0A  margin: 0 0 0 5px !important;=0D=0A  font-size: 12px !importan=
+t;=0D=0A  font-weight: 500 !important;=0D=0A  overflow: hidden !important;=
+=0D=0A}=0D=0A=0D=0A.intercom-interblocks-article-written-by {=0D=0A  color:=
+ #8897a4 !important;=0D=0A  margin: 1px 0 0 5px !important;=0D=0A  font-siz=
+e: 12px !important;=0D=0A  overflow: hidden !important;=0D=0A  vertical-ali=
+gn: middle !important;=0D=0A  float: left !important;=0D=0A}=0D=0A</style>=
+=0D=0A</head>=0D=0A<body bgcolor=3D"white" style=3D"-ms-text-size-adjust: n=
+one; -webkit-text-size-adjust: none; height: 100% !important; margin: 0; pa=
+dding: 0; width: 100% !important">=0D=0A<div style=3D"color:transparent;vis=
+ibility:hidden;opacity:0;font-size:0px;border:0;max-height:1px;width:1px;ma=
+rgin:0px;padding:0px;border-width:0px!important;display:none!important;line=
+-height:0px!important;"><img border=3D"0" width=3D"1" height=3D"1" src=3D"h=
+ttps://planet-01fecab4e6d7.intercom-mail.com/q/cWCDGyGeetoeceoFMKNDCA~~/AAA=
+AAQA~/RgRiL7GZPVcIaW50ZXJjb21CCmBHmSxNYNcDTb9SE2plbm5leW9vbkBnbWFpbC5jb21YB=
+AAAA-w~"/></div>=0D=0A=0D=0A<style type=3D"text/css">=0D=0Abody {=0D=0Amarg=
+in: 0; padding: 0; height: 100% !important; width: 100% !important;=0D=0A}=
+=0D=0A.ExternalClass {=0D=0Awidth: 100%;=0D=0A}=0D=0A.ExternalClass {=0D=0A=
+line-height: 100%;=0D=0A}=0D=0Aimg {=0D=0A-ms-interpolation-mode: bicubic;=
+=0D=0A}=0D=0Aimg {=0D=0Aborder: 0 !important; outline: none !important; tex=
+t-decoration: none !important;=0D=0A}=0D=0A</style>=0D=0A<table cellpadding=
+=3D"0" cellspacing=3D"0" border=3D"0" height=3D"100%" width=3D"100%" bgcolo=
+r=3D"white" style=3D"-ms-text-size-adjust: 100%; -webkit-text-size-adjust: =
+100%; border-collapse: collapse; border-spacing: 0 !important; margin: 0 au=
+to"><tbody style=3D"-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 1=
+00%"><tr style=3D"-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100=
+%"><td style=3D"-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%"=
+>=0D=0A=0D=0A  =0D=0A  <div style=3D"-ms-text-size-adjust: 100%; -webkit-te=
+xt-size-adjust: 100%; color: #222222; display: none; font-size: 1px; line-h=
+eight: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden">=
+=0D=0A  </div>=0D=0A  =0D=0A=0D=0A  =0D=0A  <table border=3D"0" width=3D"60=
+0" cellpadding=3D"0" cellspacing=3D"0" align=3D"center" style=3D"-ms-text-s=
+ize-adjust: 100%; -webkit-text-size-adjust: 100%; border-collapse: collapse=
+; border-spacing: 0 !important; margin: auto; width: 600px" class=3D"email-=
+container">=0D=0A    <tbody style=3D"-ms-text-size-adjust: 100%; -webkit-te=
+xt-size-adjust: 100%">=0D=0A<tr style=3D"-ms-text-size-adjust: 100%; -webki=
+t-text-size-adjust: 100%">=0D=0A      <td width=3D"80" style=3D"-ms-text-si=
+ze-adjust: 100%; -webkit-text-size-adjust: 100%">=0D=0A=0D=0A        =0D=0A=
+        <table border=3D"0" width=3D"100%" cellpadding=3D"0" cellspacing=3D=
+"0" style=3D"-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; bo=
+rder-collapse: collapse; border-spacing: 0 !important; margin: 0 auto">=0D=
+=0A          <tbody style=3D"-ms-text-size-adjust: 100%; -webkit-text-size-=
+adjust: 100%">=0D=0A<tr style=3D"-ms-text-size-adjust: 100%; -webkit-text-s=
+ize-adjust: 100%"><td height=3D"5" style=3D"-ms-text-size-adjust: 100%; -we=
+bkit-text-size-adjust: 100%; font-size: 0; line-height: 0">=C2=A0</td></tr>=
+=0D=0A          <tr style=3D"-ms-text-size-adjust: 100%; -webkit-text-size-=
+adjust: 100%">=0D=0A            <td valign=3D"middle" width=3D"80" style=3D=
+"-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; line-height: 0=
+; padding-left: 4%; padding-top: 40px; text-align: left" class=3D"stack-col=
+umn-left" align=3D"left">=0D=0A              =0D=0A                <img src=
+=3D"https://assets.planet.com/marketing/logos/planet-primary-logo.png" alt=
+=3D"Planet Labs Logo" width=3D"100" height=3D"49" style=3D"-ms-interpolatio=
+n-mode: bicubic; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%=
+; border: 0; margin: auto; outline: none !important; text-decoration: none =
+!important">=0D=0A              =0D=0A            </td>=0D=0A          </tr=
+>=0D=0A          <tr style=3D"-ms-text-size-adjust: 100%; -webkit-text-size=
+-adjust: 100%"><td height=3D"5" style=3D"-ms-text-size-adjust: 100%; -webki=
+t-text-size-adjust: 100%; font-size: 0; line-height: 0">=C2=A0</td></tr>=0D=
+=0A        </tbody>=0D=0A</table>=0D=0A        =0D=0A=0D=0A        =0D=0A  =
+      <table border=3D"0" width=3D"100%" cellpadding=3D"0" cellspacing=3D"0=
+" bgcolor=3D"#ffffff" style=3D"-ms-text-size-adjust: 100%; -webkit-text-siz=
+e-adjust: 100%; border-collapse: collapse; border-spacing: 0 !important; ma=
+rgin: 0 auto">=0D=0A=0D=0A          =0D=0A          <tbody style=3D"-ms-tex=
+t-size-adjust: 100%; -webkit-text-size-adjust: 100%">=0D=0A<tr style=3D"-ms=
+-text-size-adjust: 100%; -webkit-text-size-adjust: 100%">=0D=0A            =
+<td style=3D"-ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiase=
+d; -webkit-text-size-adjust: 100%; color: #5a6066; font-family: Helvetica N=
+ueue, sans-serif; font-size: 14px; font-weight: 400; line-height: 26px; pad=
+ding: 4%; text-rendering: optimizeLegibility">=0D=0A              <p class=
+=3D"intercom-align-left" style=3D"-ms-text-size-adjust: 100%; -webkit-text-=
+size-adjust: 100%; text-align: left !important" align=3D"left">Hi Jennifer,=
+</p>=0D=0A<p class=3D"intercom-align-left" style=3D"-ms-text-size-adjust: 1=
+00%; -webkit-text-size-adjust: 100%; text-align: left !important" align=3D"=
+left">We are excited to welcome you to Norway's International Climate and F=
+orests Initiative (NICFI) satellite data program. NICFI and its partners ar=
+e now offering free access to high-resolution, analysis-ready mosaics to he=
+lp reduce and reverse tropical forest loss.=C2=A0</p>=0D=0A<p class=3D"inte=
+rcom-align-left" style=3D"-ms-text-size-adjust: 100%; -webkit-text-size-adj=
+ust: 100%; text-align: left !important" align=3D"left">Through this program=
+, you will have access to Planet Basemaps:=C2=A0</p>=0D=0A<ul style=3D"-ms-=
+text-size-adjust: 100%; -webkit-text-size-adjust: 100%">=0D=0A<li style=3D"=
+-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%">Bi-Annual archi=
+ve (December 2015- August 2020), and=C2=A0</li>=0D=0A<li style=3D"-ms-text-=
+size-adjust: 100%; -webkit-text-size-adjust: 100%">Monthly monitoring (Sept=
+ember 2020 onwards))</li>=0D=0A</ul>=0D=0A<p class=3D"intercom-align-left" =
+style=3D"-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; text-a=
+lign: left !important" align=3D"left"></p>=0D=0A<p class=3D"intercom-align-=
+left" style=3D"-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; =
+text-align: left !important" align=3D"left">Users can view and download tro=
+pical mosaics in support of the Program=E2=80=99s purpose: to reduce and re=
+verse the loss of tropical forests, combat climate change, conserve biodive=
+rsity, and facilitate the sustainable development of forest communities.</p=
+>=0D=0A<p class=3D"intercom-align-left" style=3D"-ms-text-size-adjust: 100%=
+; -webkit-text-size-adjust: 100%; text-align: left !important" align=3D"lef=
+t">Get started today!</p>=0D=0A<ul style=3D"-ms-text-size-adjust: 100%; -we=
+bkit-text-size-adjust: 100%">=0D=0A<li style=3D"-ms-text-size-adjust: 100%;=
+ -webkit-text-size-adjust: 100%">Learn more about this program with our <a =
+href=3D"https://planet-01fecab4e6d7.intercom-clicks.com/via/e=3Fob=3Do3ts1j=
+79VXcUwCEl0tPGDgtLu7tFQhcqZfiqF%2BJtHpqorVQHRo7M%2FNlWJOISmrzpvL5FmsiKXMD6k=
+hhvaEQQ8Q%3D%3D&h=3D8f7c7ed4319562f81d58c4cb9fe41d469878485f-r4ypd7pz_21447=
+500235984&l=3D8b3be103f1d6c34ecf6a04973adeed7f69ec3e7f-5054048" target=3D"_=
+blank" style=3D"-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;=
+ color: #00aeb3 !important">Frequently Asked Questions</a>=C2=A0</li>=0D=0A=
+<li style=3D"-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%">Le=
+arn more about how to use the data with our <a href=3D"https://planet-01fec=
+ab4e6d7.intercom-clicks.com/via/e=3Fob=3DHo4cb5U3c7QQsMnocG2f7x3iZdaTpWLf8o=
+6NOImkIKW%2FTDjgZcUb10Jq4C2ev3kE7cFV1RyjK99QNac8mFBeuw%3D%3D&h=3D633ce53481=
+236e9005560a8310eb02fa58cce475-r4ypd7pz_21447500235984&l=3Dafb5093a9d6d7803=
+3fced8399681ef1f39f6c320-5054049" target=3D"_blank" style=3D"-ms-text-size-=
+adjust: 100%; -webkit-text-size-adjust: 100%; color: #00aeb3 !important">Us=
+er Guides</a>.=C2=A0</li>=0D=0A</ul>=0D=0A<p class=3D"intercom-align-left" =
+style=3D"-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; text-a=
+lign: left !important" align=3D"left"><a href=3D"https://planet-01fecab4e6d=
+7.intercom-clicks.com/via/e=3Fob=3DZgEGZKzrqX3MEo1WXzmtZ%2B%2B0NwtAE3Fl3gYl=
+M5wWcLB8TTNp0QfRr0BGAVADaGgCXhH3%2FQPxo47r4bMph12MBYicxCuYOLI5QQ%2FJTJchOMR=
+CzQVshjS6efFbc7a7UKtah2hJ3EztrXKhIIx2ingIAA%3D%3D&h=3Deaf107ece2100eb867bd1=
+25195c05cba16773c8e-r4ypd7pz_21447500235984&l=3D8e6595948377f46e42d91a02936=
+5f49d46454094-5054050" target=3D"_blank" style=3D"-ms-text-size-adjust: 100=
+%; -webkit-text-size-adjust: 100%; color: #00aeb3 !important">Read more</a>=
+ about how Norway=E2=80=99s Ministry of Climate and Environment, KSAT, Plan=
+et Labs, and Airbus are working to enhance efforts to protect our tropical =
+forests.=C2=A0</p>=0D=0A<p class=3D"intercom-align-left" style=3D"-ms-text-=
+size-adjust: 100%; -webkit-text-size-adjust: 100%; text-align: left !import=
+ant" align=3D"left">Best,<br style=3D"-ms-text-size-adjust: 100%; -webkit-t=
+ext-size-adjust: 100%">The Planet Team</p>=0D=0A            </td>=0D=0A    =
+      </tr>=0D=0A=0D=0A        </tbody>=0D=0A</table>=0D=0A        =0D=0A=
+=0D=0A      </td>=0D=0A    </tr>=0D=0A=0D=0A    =0D=0A    <tr style=3D"-ms-=
+text-size-adjust: 100%; -webkit-text-size-adjust: 100%">=0D=0A      <td sty=
+le=3D"-ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; -web=
+kit-text-size-adjust: 100%; color: #5a6066; font-family: Helvetica Nueue, s=
+ans-serif; font-size: 14px; font-weight: 400; line-height: 26px; padding: 3=
+%; text-align: center; text-rendering: optimizeLegibility" align=3D"center"=
+>=0D=0A        <a class=3D"mobile-link--footer" href=3D"https://planet-01fe=
+cab4e6d7.intercom-mail.com/via/e=3Fob=3DnwKG9nnkYYaC7IzYw%2BZ9wHsS%2BbcSAWn=
+03E973P9qsuxjorbRPBkI5MSg4otXYc7I&h=3D7fd7cdd5eee71ce4fc99eb40c23817e9276f2=
+367-r4ypd7pz_21447500235984" style=3D"-ms-text-size-adjust: 100%; -webkit-t=
+ext-size-adjust: 100%; color: #00aeb3 !important; padding: 0 5px"><img src=
+=3D"https://cl.ly/0m0p3P2n2W2Q/facebookIcon.png" alt=3D"Facebook Logo" widt=
+h=3D"18" height=3D"18" style=3D"-ms-interpolation-mode: bicubic; -ms-text-s=
+ize-adjust: 100%; -webkit-text-size-adjust: 100%; border: 0; margin: auto; =
+outline: none !important; text-decoration: none !important"></a>=0D=0A     =
+   <a class=3D"mobile-link--footer" href=3D"https://planet-01fecab4e6d7.int=
+ercom-mail.com/via/e=3Fob=3DSjALs9%2F3fFGN3IDNep0QwlRyY0SMB9ZGDM0ss7Sd%2Byo=
+%3D&h=3D425d741ca301230244464b6c83cdcb9d5da4f837-r4ypd7pz_21447500235984" s=
+tyle=3D"-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; color: =
+#00aeb3 !important; padding: 0 5px"><img src=3D"https://cl.ly/0U2H2O1J2c1g/=
+twitterIcon.png" alt=3D"Twitter Logo" width=3D"18" height=3D"18" style=3D"-=
+ms-interpolation-mode: bicubic; -ms-text-size-adjust: 100%; -webkit-text-si=
+ze-adjust: 100%; border: 0; margin: auto; outline: none !important; text-de=
+coration: none !important"></a>=0D=0A        <a class=3D"mobile-link--foote=
+r" href=3D"https://planet-01fecab4e6d7.intercom-mail.com/via/e=3Fob=3DfeYiY=
+D%2B800arB0Lc1mbOwLfUZ7H4xSDoDGRKGM44ggIz%2FMElWXuwf6JhywckbFXn&h=3D9ab964e=
+e8c5711b202daffc347abb6cb4c016a24-r4ypd7pz_21447500235984" style=3D"-ms-tex=
+t-size-adjust: 100%; -webkit-text-size-adjust: 100%; color: #00aeb3 !import=
+ant; padding: 0 5px"><img src=3D"https://cl.ly/2Q2m3g1O3q1v/linkedinIcon.pn=
+g" alt=3D"Linkedin Logo" width=3D"18" height=3D"18" style=3D"-ms-interpolat=
+ion-mode: bicubic; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 10=
+0%; border: 0; margin: auto; outline: none !important; text-decoration: non=
+e !important"></a>=0D=0A        <a class=3D"mobile-link--footer" href=3D"ht=
+tps://planet-01fecab4e6d7.intercom-mail.com/via/e=3Fob=3DtSOH80VODq%2BMkI6K=
+REyLP7fmhSXtakhbI01o82PogSMr4NSiBxNXNMwYAM%2BwZFIHxps8SjWGwY6S4jj551fikm32V=
+ONFef4aAITSrxRtywE%3D&h=3Ddfcb8e1a96a85c6308672ed02e7f8ff62bd8be3a-r4ypd7pz=
+_21447500235984" style=3D"-ms-text-size-adjust: 100%; -webkit-text-size-adj=
+ust: 100%; color: #00aeb3 !important; padding: 0 5px"><img src=3D"https://c=
+l.ly/3C2W2M3V1P2F/globe_big.png" alt=3D"Linkedin Logo" width=3D"18" height=
+=3D"18" style=3D"-ms-interpolation-mode: bicubic; -ms-text-size-adjust: 100=
+%; -webkit-text-size-adjust: 100%; border: 0; margin: auto; outline: none !=
+important; text-decoration: none !important"></a>=0D=0A        =0D=0A      =
+  </td>=0D=0A    </tr>=0D=0A    <tr style=3D"-ms-text-size-adjust: 100%; -w=
+ebkit-text-size-adjust: 100%">=0D=0A      <td style=3D"-ms-text-size-adjust=
+: 100%; -webkit-font-smoothing: antialiased; -webkit-text-size-adjust: 100%=
+; color: #5a6066; font-family: Helvetica Nueue, sans-serif; font-size: 10px=
+; font-weight: 400; line-height: 26px; padding: 3%; text-align: center; tex=
+t-rendering: optimizeLegibility" align=3D"center">=0D=0A        <a href=3D"=
+https://planet-01fecab4e6d7.intercom-mail.com/subscriptions/unsubscribe=3Fa=
+pp_id=3Dr4ypd7pz&conversation_id=3D21447500235984&user_id=3D604d24fd8a72de4=
+a8e949c66" style=3D"-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 1=
+00%; color: #00aeb3 !important">Unsubscribe from our emails</a> =0D=0A<br s=
+tyle=3D"-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%">Copyrig=
+ht 2019 Planet Labs Inc., All rights reserved =0D=0A645 Harrison Street San=
+ Francisco, CA 94107 =0D=0A      </td>=0D=0A    </tr>=0D=0A    =0D=0A=0D=0A=
+  </tbody>=0D=0A</table>=0D=0A  =0D=0A=0D=0A</td></tr></tbody></table>=0D=
+=0A=0D=0A=0D=0A=0D=0A=0D=0A=0D=0A=0D=0A=0D=0A=0D=0A=0D=0A<img src=3D"https:=
+//planet-01fecab4e6d7.intercom-mail.com/via/o=3Fh=3D0cd59244e691c2b54557ca7=
+3935159d8d29f847c-r4ypd7pz_21447500235984" width=3D"1" height=3D"1" style=
+=3D"display: block;" alt=3D"intercom">=0D=0A=0D=0A<img border=3D"0" width=
+=3D"1" height=3D"1" alt=3D"" src=3D"https://planet-01fecab4e6d7.intercom-ma=
+il.com/q/YeNewFKBvxGRwiXsp2CdHQ~~/AAAAAQA~/RgRiL7GZPlcIaW50ZXJjb21CCmBHmSxN=
+YNcDTb9SE2plbm5leW9vbkBnbWFpbC5jb21YBAAAA-w~">=0D=0A</body>=0D=0A</html>
+--_----0cxLWpPVsiyi5j1LQmRv7g===_E3/FB-05488-99C2D406--
+
