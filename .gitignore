@@ -1,7 +1,7 @@
 desktop.ini
-.ipynb_checkpoints/
 .vscode/
 .tar
 .tar.gz
 .hdf5
 .zip
+data/
