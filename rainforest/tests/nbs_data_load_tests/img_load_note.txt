@@ -29,4 +29,16 @@ x_inputs randomizing >> no shuffle first, then random with ranseed 42.
   
  # Try loading model next.  Test first before fine-tuning inputs.  Test that it works.  
  
+ #### 4/30/2022 tasks:  
+ Train full 40,000 images on colab, maybe AWS  
+ Get comfortable saving intermediate models.  
+ Install fastai library to Colab instance to run.  
+ 
+ Runusing Tensorflow and Keras.  
+ 
+ Download recent images (Nicfi), split images and try auto-labelling with human correction.  
+ Combine with Lansat images to make a historical changes movie.  
+ 
+ Add interactivity.  Fame Eco-Warriors!  
+ 
  
