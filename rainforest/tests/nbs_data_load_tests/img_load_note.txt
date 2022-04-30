@@ -39,6 +39,6 @@ x_inputs randomizing >> no shuffle first, then random with ranseed 42.
  Download recent images (Nicfi), split images and try auto-labelling with human correction.  
  Combine with Lansat images to make a historical changes movie.  
  
- Add interactivity.  Fame Eco-Warriors!  
+ Add interactivity.  Game Eco-Warriors!  
  
  
