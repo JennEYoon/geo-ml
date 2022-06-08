@@ -1,0 +1,13 @@
+Amazon Rainforest Deep Learning Project 2021-2022
+Explore ways to extend deep learning training to time periods with unlabeled data. (My ultimate goal is to help
+the Amazon Rainforest conservation effort by making it more profitable for locals to grow and conserve the forest
+than to burn it down.) Use Google Colaboratory GPU server with PyTorch and Fastai Python libraries. (See geoml repo on GitHub, https://github.com/JennEYoon/geo-ml)
+
+Train a baseline deep learning model using ResNet34 pre-trained weights on labeled satellite image data from a
+2017 Kaggle competition and Planet Labs. Reached f-beta score accuracy of 92.3%. (For comparison, #1 spot in
+the 2017 Kaggle competition had 93.317% score). Download unlabeled satellite image data for 2017-2022 period
+from Planet Labs and NICFI non-profit program. Pre-process data by breaking images into tiles similar to labeled
+data. Auto-apply labels to new data using previously trained baseline model. On a subset of images, manually
+correct and verify labels to use as test data and training data, using AI-assisted label correction. Fine tune the
+baseline model on the new, unlabeled data period. Try enhancing image colors by using the infrared channel and
+using only maximally contrasting categories to improve deep learning training accuracy. Experiment is on-going
