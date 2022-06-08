@@ -1,5 +1,8 @@
 # Testing wiki, SSH login  
 
+* June 8, 2022 - made a working copy of WIKI, saved to geo-ml/wiki/wiki_copy/  
+   - Use to write/edit wiki.  Easier to work on it here.  
+
 Copied Clone SSH address from github for root repo, then edit with ".wiki".   
   * Worked!   
   * Downloaded wiki, cloned.  
