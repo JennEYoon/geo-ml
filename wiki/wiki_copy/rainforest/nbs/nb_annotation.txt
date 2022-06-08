@@ -1,0 +1,15 @@
+# notebook annotation  
+
+Date Monday, June 8, 2022
+
+Latest test notebook for Amazon Rainforest project.  
+For wiki write up.  
+
+Use full 40K dataset on Google Colab GPU server ? -- to verify.  
+Result in 92% range.  
+
+Need a clean notebook for use in wiki.  
+Re-run, without local laptop parts.  
+
+Models NOT part of Github repo, too large.  
+Downloaded and saved to local laptop.  
