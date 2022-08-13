@@ -15,20 +15,21 @@
 ### Write-up 3, Overview for lay audience:    
  * Explain Area of Interest, JSON file format.  
  * Explain history, politics, rainfall dependency on the trees.  
- * Movie of deforestation from Planet, add music and detailed comparison time snap-shots.  
- * Add to it with newer data I am working on.  
- * Add historical older data from LanSat images.  
+ * Add historical older images from LanSat.  
+ * Later -- My own version of deforestation movie, add music and detailed comparison time snap-shots, voice over and pause at major changes.  
+ * Later -- Add to it with newer data I am working on.  
 
 ### Experiment and Write-up 4: auto-labelling:  
  * Try auto-labelling other time period images using trained models.  
  * Predict labels, pretrained weights in .pkl file.  No need to fine tune.  
- * Need to manually label some images in order to get training set. Model assisted label? OK for test set.   
+ * Need to manually label some images in order to get test set. 
  * Yes but need ground truth to be sure, Me label 500-2000 images should do it (validation set), make sure to have enough of all classes.  
  
 > Apply to Planet Labs after this step
 
  * Then go back and improve training model. Iterate back and forth.  
- * Source image in Kaggle had way more primary forest class than other classes.  Think of ways to balance class samples.  Does it matter?  
+ * Source image in Kaggle had way more primary forest class than other classes.  
+   - Think of ways to balance class samples.  Does it matter?  
  * Infrared channel uses?  
 
 ### Write-up 5: Economic ML anlaysis:  
