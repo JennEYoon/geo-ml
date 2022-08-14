@@ -35,3 +35,6 @@
  * Compare deforestation with global trade and market for Brazil Beef, Soybeans.  
  * Measures of precepitation and temperature in Amazon Rainforest, in context of global climate change (faster/slower).  
  * Compare to economy of Brazil, global economy. Global price of beef, soybean, oil & shipping cost.  
+ * EIA.gov - download oil trading data, for API use case demo.  
+
+
