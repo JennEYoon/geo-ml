@@ -12,7 +12,7 @@
  * Also download data from Planet Basemap Graphical User Interface  
  * Also try Google Earch User Interface and API  
 
-> Apply to Planet Labs after this step - 10 days focused work.  
+> contact Planet Labs after this step - 10 days focused work.  
 
 ### Experiment and Write-up 3: auto-labelling:  
  * Try auto-labelling other time period images using trained models.  
