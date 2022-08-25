@@ -1,20 +1,20 @@
 # Amazon Rainforest project write up plans  
 
-### Plan for write-up 1, baseline training model:     
+### Write-up 1, Baseline Training:     
  * Re-do clean deep learning training, baseline, resnet34  
     * 2k small sample batch, train for 20 epochs.  
     * full 40k, train for 20 epochs -- overfit first.  
     * Test on test set, also try additional data released set.  
 
-### Plan for write-up 2, Plandet Labs data API:   
+### Write-up 2, Planet Labs - Python Data API:   
  * Use Python data API to download sample images from later periods, some can overlap time period to test.  
  * Do we know actual bounding box of area used in Kaggle 2017 competition?  Reproduce as much as possible.  
  * Also download data from Planet Basemap Graphical User Interface  
  * Also try Google Earch User Interface and API  
 
-> contact Planet Labs after this step - 10 days focused work.  
+> contact Planet Labs after this step - 6 days focused work.  
 
-### Experiment and Write-up 3: auto-labelling:  
+### Write-up 3: Experiment and Auto-Labelling:  
  * Try auto-labelling other time period images using trained models.  
  * Predict labels, pretrained weights in .pkl file.  No need to fine tune.  
  * Need to manually label some images in order to get test set. 
