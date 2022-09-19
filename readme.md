@@ -1,6 +1,6 @@
 # geo-ml
 
-Purpose: To explore geospatial machine learning and visualization in Python. 
+Purpose: To explore geospatial deep learning and visualization in Python. 
 
 Date: August 10, 2022  
 
