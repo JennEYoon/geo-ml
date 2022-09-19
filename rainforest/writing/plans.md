@@ -1,18 +1,18 @@
-# Amazon Rainforest project write up plans  
+# Amazon Rainforest project writing plans  
 
-### Write-up 1, Baseline Training:     
+### Write-up 1, Baseline Training Model:     
  * Re-do clean deep learning training, baseline, resnet34  
     * 2k small sample batch, train for 20 epochs.  
     * full 40k, train for 20 epochs -- overfit first.  
     * Test on test set, also try additional data released set.  
+
+> contact PL after this step
 
 ### Write-up 2, Planet Labs - Python Data API:   
  * Use Python data API to download sample images from later periods, some can overlap time period to test.  
  * Do we know actual bounding box of area used in Kaggle 2017 competition?  Reproduce as much as possible.  
  * Also download data from Planet Basemap Graphical User Interface  
  * Also try Google Earch User Interface and API  
-
-> contact Planet Labs after this step - 6 days focused work.  
 
 ### Write-up 3: Experiment and Auto-Labelling:  
  * Try auto-labelling other time period images using trained models.  
@@ -23,6 +23,8 @@
  * Source image in Kaggle had way more primary forest class than other classes.  
    - Think of ways to balance class samples.  Does it matter?  
  * Infrared channel uses?  
+
+> contact again.  
 
 ### Write-up 4, Overview for lay audience:    
  * Explain Area of Interest, JSON file format.  
@@ -36,5 +38,7 @@
  * Measures of precepitation and temperature in Amazon Rainforest, in context of global climate change (faster/slower).  
  * Compare to economy of Brazil, global economy. Global price of beef, soybean, oil & shipping cost.  
  * EIA.gov - download oil trading data, for API use case demo.  
+ * Global oil/gas trade economic data and maps, shipping route, refinery capacity, weather.  
 
+> contact again.  
 
