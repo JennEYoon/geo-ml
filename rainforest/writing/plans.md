@@ -2,6 +2,7 @@
 
 ### Write-up 1, Baseline Training Model:     
  * Re-do clean deep learning training, baseline, resnet34  
+    * show downloading data from Kaggle 2017 challenge.  
     * 2k small sample batch, train for 20 epochs.  
     * full 40k, train for 20 epochs -- overfit first.  
     * Test on test set, also try additional data released set.  
