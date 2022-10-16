@@ -7,4 +7,4 @@
 
 ### Planet Labs Python API to download basemap area of interest dataset  
 
-### Using GUI to doenload images from Planet Labs.  
+### Using GUI to download images from Planet Labs.  
