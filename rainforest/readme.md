@@ -1,5 +1,8 @@
 # Amazon Rainforest project  
 
+This is a work-in-progress experiment folder.  See **"Amazon-dl"** folder for the clean presentation of results.  
+Nov 25, 2022 update from Jennifer E. Yoon
+
 Based on a 2017 Kaggle Challenge, uses Planet Labs data, NICFI data, 
 Amazon Rainforest geospatial and satellite image deep learning project.  
 
