@@ -11,3 +11,5 @@ Help create better database of Amazon Forest, label damaged areas vs healthy are
 
 Ecco-Warriors!, phew, phew, phew!   
 
+Apply to jobs at Planet Labs DC in 2024.  
+
