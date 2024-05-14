@@ -26,4 +26,5 @@ Level 3:
  * Build monitoring system, real-time. Shipping tracking
  * Integrate with Russian Oil Production Volume forecasting model    
 
-Level 4:  Communication & Marketing  
+Level 4:  
+ * Communication & Marketing  
