@@ -13,11 +13,13 @@ Level 1:
  * Gather image assets
  * Write narrative
  * Create time-lapse video of small areas selected to show degradation over time.
+
 Level 2:  
  * demonstrate auto-labelling with machine learning assit
  * Include data API, large volume data daownload and splitting into tiles, efficient processing of tiles  
  * write up experimet, gatehr images and other assets
  * add economic research angle, shipping, beef export from Brazil, global crude production volumne and prices
+
 Level 3:  
  * Improve auto-label, alternative categories, infrared usage
  * Update data model and build web dashboard
