@@ -20,7 +20,8 @@ Author: Jennifer E. Yoon
   > See project wiki:  https://github.com/JennEYoon/geo-ml/wiki/geosnap  
   
  * See "geosnap-md" folder  
- * Python libraries: geosnap, pysal 
+ * Python libraries: geosnap, pysal
+ * presented at SciPy 20204, to read proceedings paper, to try out updates. Asking for foreign country mapping help.   
  
 Second project is using ***geosnap*** and ***pysal*** libraries to create a socio-economic neighborhood map for Virginia and Maryland.  Source data is from U.S. Census.  
 
