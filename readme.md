@@ -11,6 +11,8 @@ Author: Jennifer E. Yoon
  * See folder "rainforest"  
  * Python libraries:  planet_data_api, geopandas, geojson, rasterio, skimage   
                       PyTorch, Fastai, Tensorflow, Keras  
+  * update, Sept 2024 last extension NICFI.  To get data from Google Earth Engine before then.  
+
 
 ------------------------------------  
 
