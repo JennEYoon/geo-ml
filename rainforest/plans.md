@@ -1,5 +1,11 @@
 # Amazon Rainforest project writing plans  
 
+### 2024 plan update:  
+To finish write-up and data download by Dec 2024. NICFI ends Jan 2025.  
+To sign-up for Google Earth Engine for same NICFI data.  
+Finish write-up and post online by Dec 2024.  
+
+
 ### Write-up 1, Baseline Training Model:     
  * Re-do clean deep learning training, baseline, resnet34  
     * show downloading data from Kaggle 2017 challenge.  
@@ -7,8 +13,6 @@
     * full 40k, train for 20 epochs -- overfit first.  
     * Test on test set, also try additional data released set.  
     * show prediction on unlabeled images, matplotlib or Pillow imshow.  
-
-> contact PL after this step
 
 ### Write-up 2, Planet Labs - Python Data API:   
  * Use Python data API to download sample images from later periods, some can overlap time period to test.  
@@ -26,8 +30,6 @@
    - Think of ways to balance class samples.  Does it matter?  
  * Infrared channel uses?  
 
-> contact again.  
-
 ### Write-up 4, Overview for lay audience:    
  * Explain Area of Interest, JSON file format.  
  * Explain history, politics, rainfall dependency on the trees.  
@@ -42,5 +44,4 @@
  * EIA.gov - download oil trading data, for API use case demo.  
  * Global oil/gas trade economic data and maps, shipping route, refinery capacity, weather.  
 
-> contact again.  
 
